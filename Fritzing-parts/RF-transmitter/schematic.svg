@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="100.96985"
+   height="69.129387"
+   viewBox="0 0 100.96985 69.129378"
+   id="svg2">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <g
+     transform="matrix(0,-1,1,0,0.00109913,69.03125)"
+     id="schematic">
+    <line
+       x1="23.25"
+       y1="19.401056"
+       x2="1.0000005"
+       y2="19.401056"
+       id="connector0pin"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round" />
+    <rect
+       width="1"
+       height="2"
+       x="4.1992186e-07"
+       y="18.244013"
+       id="connector0terminal"
+       style="fill:none" />
+    <line
+       x1="23.25"
+       y1="39.401054"
+       x2="1.0000005"
+       y2="39.401054"
+       id="connector1pin"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round" />
+    <rect
+       width="1"
+       height="2"
+       x="4.1992186e-07"
+       y="38.244015"
+       id="connector1terminal"
+       style="fill:none" />
+    <line
+       x1="23.25"
+       y1="59.401054"
+       x2="1.0000005"
+       y2="59.401054"
+       id="connector2pin"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round" />
+    <rect
+       width="1"
+       height="2"
+       x="4.1992186e-07"
+       y="58.244015"
+       id="connector2terminal"
+       style="fill:none" />
+    <line
+       x1="23.25"
+       y1="79.401054"
+       x2="1.0000005"
+       y2="79.401054"
+       id="connector3pin"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round" />
+    <rect
+       width="1"
+       height="2"
+       x="4.1992186e-07"
+       y="78.244011"
+       id="connector3terminal"
+       style="fill:none" />
+    <rect
+       width="43.957275"
+       height="98.957275"
+       x="24.06868"
+       y="0.99999511"
+       id="box"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       x="32.904572"
+       y="-56.330013"
+       transform="matrix(0,1,-1,0,0,0)"
+       id="text3019"
+       xml:space="preserve"
+       style="font-size:11.24642563px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="32.904572"
+         y="-56.330013"
+         id="tspan3021">RF-TX</tspan></text>
+    <text
+       x="27.565258"
+       y="23.072954"
+       id="text3023"
+       xml:space="preserve"
+       style="font-size:7.76118946px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="27.565258"
+         y="23.072954"
+         id="tspan3025">GND</tspan></text>
+    <text
+       x="27.565258"
+       y="62.001396"
+       id="text3027"
+       xml:space="preserve"
+       style="font-size:7.76118946px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="27.565258"
+         y="62.001396"
+         id="tspan3029">VCC</tspan></text>
+    <text
+       x="27.137472"
+       y="81.679512"
+       id="text3031"
+       xml:space="preserve"
+       style="font-size:7.76118946px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="27.137472"
+         y="81.679512"
+         id="tspan3033">ANT</tspan></text>
+    <text
+       x="27.565258"
+       y="41.467716"
+       id="text3035"
+       xml:space="preserve"
+       style="font-size:7.76118946px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="27.565258"
+         y="41.467716"
+         id="tspan3037">DATA</tspan></text>
+  </g>
+</svg>

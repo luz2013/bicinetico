@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="36.539997"
+   height="43.188072"
+   viewBox="0 0 40.599998 47.986744"
+   id="svg2">
+  <metadata
+     id="metadata27">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs25" />
+  <g
+     transform="translate(-0.69999999,17.973803)"
+     id="breadboard">
+    <rect
+       width="40.599998"
+       height="44.830177"
+       x="0.69999999"
+       y="-17.973804"
+       id="rect2477"
+       style="fill:#008000;fill-opacity:1;stroke:none" />
+    <polygon
+       points="8.5,25.66 3.5,25.66 3.5,25.66 3.5,27.66 6.5,27.66 8.5,26.74 "
+       id="pinflare0"
+       style="fill:#8c8c8c" />
+    <rect
+       width="3"
+       height="3"
+       x="3.5"
+       y="27"
+       id="connector0terminal"
+       style="fill:#8c8c8c" />
+    <rect
+       width="3"
+       height="4.3400002"
+       x="3.5"
+       y="25.672941"
+       id="connector0pin"
+       style="fill:#8c8c8c" />
+    <polygon
+       points="18.5,25.66 13.5,25.66 13.5,25.66 13.5,27.66 16.5,27.66 18.5,26.74 "
+       id="pinflare1"
+       style="fill:#8c8c8c" />
+    <rect
+       width="3"
+       height="3"
+       x="13.5"
+       y="27"
+       id="connector1terminal"
+       style="fill:#8c8c8c" />
+    <rect
+       width="3"
+       height="4.3400002"
+       x="13.5"
+       y="25.672941"
+       id="connector1pin"
+       style="fill:#8c8c8c" />
+    <polygon
+       points="28.5,25.66 23.5,25.66 23.5,25.66 23.5,27.66 26.5,27.66 28.5,26.74 "
+       id="pinflare2"
+       style="fill:#8c8c8c" />
+    <rect
+       width="3"
+       height="3"
+       x="23.5"
+       y="27"
+       id="connector2terminal"
+       style="fill:#8c8c8c" />
+    <rect
+       width="3"
+       height="4.3400002"
+       x="23.5"
+       y="25.672941"
+       id="connector2pin"
+       style="fill:#8c8c8c" />
+    <polygon
+       points="38.5,25.66 33.5,25.66 33.5,25.66 33.5,27.66 36.5,27.66 38.5,26.74 "
+       id="pinflare3"
+       style="fill:#8c8c8c" />
+    <rect
+       width="3"
+       height="3"
+       x="33.5"
+       y="27"
+       id="connector3terminal"
+       style="fill:#8c8c8c" />
+    <rect
+       width="3"
+       height="4.3400002"
+       x="33.5"
+       y="25.672941"
+       id="connector3pin"
+       style="fill:#8c8c8c" />
+    <path
+       d="m 52.787109,5.8113303 a 21.041016,13.36289 0 1 1 -42.082031,0 21.041016,13.36289 0 1 1 42.082031,0 z"
+       transform="matrix(0.73294346,0,0,1.1663597,-4.8110613,-5.4070069)"
+       id="path3023"
+       style="fill:#ac9d93" />
+  </g>
+</svg>
