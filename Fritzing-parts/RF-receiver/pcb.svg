@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:fz="http://fritzing.org/gedametadata/1.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.2"
+   width="155.89986"
+   height="10.234715"
+   viewBox="0 0 173222.07 11371.906"
+   id="svg2">
+  <title
+     id="title4">JUMPER3.fp</title>
+  <desc
+     id="desc6">Geda footprint file 'JUMPER3.fp' converted by Fritzing</desc>
+  <defs
+     id="defs30" />
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <rdf:Description
+         rdf:about="">
+        <fz:attr
+           name="geda filename">JUMPER3.fp</fz:attr>
+        <fz:attr
+           name="fritzing version">0.4.0b.06.21.4282</fz:attr>
+        <fz:attr
+           name="conversion date">27/06/2010 07:15:43</fz:attr>
+        <fz:attr
+           name="dist-license">GPL</fz:attr>
+        <fz:attr
+           name="use-license">unlimited</fz:attr>
+        <fz:attr
+           name="author">gEDA project</fz:attr>
+        <fz:attr
+           name="license-url">http://www.gnu.org/licenses/gpl.html</fz:attr>
+      </rdf:Description>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>JUMPER3.fp</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+
+  <g
+     transform="matrix(0,-1,1,0,0,11000)"
+     id="silkscreen">
+    <line
+       y1="589.27155"
+       x1="153.33247"
+       y2="172661.27"
+       x2="153.33247"
+       id="line16"
+       style="fill:none;stroke:#ffffff;stroke-width:1050.49536133;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       y1="172722.08"
+       x1="500"
+       y2="172722.08"
+       x2="10500"
+       id="line18"
+       style="fill:none;stroke:#ffffff;stroke-width:1000" />
+    <line
+       y1="172888"
+       x1="10500"
+       y2="2834.2295"
+       x2="10500"
+       id="line20"
+       style="fill:none;stroke:#ffffff;stroke-width:936.66668701;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       y1="500"
+       x1="10500"
+       y2="500"
+       x2="500"
+       id="line22"
+       style="fill:none;stroke:#ffffff;stroke-width:1000" />
+    <line
+       y1="10500"
+       x1="500"
+       y2="10500"
+       x2="10500"
+       id="line24"
+       style="fill:none;stroke:#ffffff;stroke-width:1000" />
+    <line
+       y1="10500"
+       x1="10500"
+       y2="500"
+       x2="10500"
+       id="line26"
+       style="fill:none;stroke:#ffffff;stroke-width:1000" />
+    <text
+       x="70575.289"
+       y="-2492.719"
+       transform="matrix(0,1,-1,0,0,0)"
+       id="text3857"
+       xml:space="preserve"
+       style="font-size:7350.98095703px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="70575.289"
+         y="-2492.719"
+         id="tspan3859">RWS - 371</tspan></text>
+  </g>
+
+  <g
+     transform="matrix(0,-1,1,0,0,11000)"
+     id="copper0">
+    <g
+       id="copper1">
+      <circle
+         cx="5500"
+         cy="5500"
+         r="2450"
+         id="connector0pin"
+         style="fill:none;stroke:#ff9400;stroke-width:1100" />
+      <circle
+         cx="5500"
+         cy="15500"
+         r="2450"
+         id="connector1pin"
+         style="fill:none;stroke:#ff9400;stroke-width:1100" />
+      <circle
+         cx="5500"
+         cy="25500"
+         r="2450"
+         id="connector2pin"
+         style="fill:none;stroke:#ff9400;stroke-width:1100" />
+      <circle
+         cx="5500"
+         cy="25500"
+         r="2450"
+         transform="translate(-5.4463327,10006.161)"
+         id="circle3781"
+         style="fill:none;stroke:#ff9400;stroke-width:1100" />
+      <circle
+         cx="5500"
+         cy="5500"
+         r="2450"
+         transform="translate(-4.4954926,130024.59)"
+         id="circle3830"
+         style="fill:none;stroke:#ff9400;stroke-width:1100" />
+      <circle
+         cx="5500"
+         cy="15500"
+         r="2450"
+         transform="translate(-4.4954926,130024.59)"
+         id="circle3832"
+         style="fill:none;stroke:#ff9400;stroke-width:1100" />
+      <circle
+         cx="5500"
+         cy="25500"
+         r="2450"
+         transform="translate(-4.4954926,130024.59)"
+         id="circle3834"
+         style="fill:none;stroke:#ff9400;stroke-width:1100" />
+      <circle
+         cx="5500"
+         cy="25500"
+         r="2450"
+         transform="translate(-9.9418326,140030.75)"
+         id="circle3836"
+         style="fill:none;stroke:#ff9400;stroke-width:1100" />
+    </g>
+  </g>
+
+</svg>
