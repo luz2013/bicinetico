@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <!-- Created with Fritzing (http://www.fritzing.org/) -->
-<svg xmlns="http://www.w3.org/2000/svg" width="2.77969in" x="0in" version="1.2" y="0in"  height="2.4554in" viewBox="0 0 200.138 176.789" baseProfile="tiny" xmlns:svg="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="3.03035in" x="0in" version="1.2" y="0in"  height="2.54984in" viewBox="0 0 218.185 183.588" baseProfile="tiny" xmlns:svg="http://www.w3.org/2000/svg">
  <g partID="175460">
   <g id="board">
-   <rect width="199.562" x="0.288" y="0.288" fill="none" height="176.213" stroke="black" fill-opacity="0.5" id="boardoutline" stroke-width="0.5"/>
+   <rect width="217.609" x="0.288" y="0.288" fill="none" height="183.012" stroke="black" fill-opacity="0.5" id="boardoutline" stroke-width="0.5"/>
   </g>
  </g>
  <g partID="94631">
-  <g transform="translate(184.671,139.964)">
-   <g transform="matrix(-1,0,0,-1,0,0)">
+  <g transform="translate(204.805,22.757)">
+   <g transform="matrix(0,1,-1,0,0,0)">
     <g transform="matrix(0, -1, 1, 0, 0, 7.92)">
      <g id="copper1">
       <g gorn="0.6.0.0.0">
@@ -57,7 +57,7 @@
   </g>
  </g>
  <g partID="94781">
-  <g transform="translate(0.57352,16.448)">
+  <g transform="translate(1.32646,17.9539)">
    <g  id="copper1">
     <g  id="copper0">
      <circle fill="none" cx="151.384"  cy="144" stroke="black" id="connector1pad" r="1.61" stroke-width="0.8113"/>
@@ -97,7 +97,7 @@
   </g>
  </g>
  <g partID="143341">
-  <g transform="translate(66.7554,89.0821)">
+  <g transform="translate(67.5084,90.588)">
    <g transform="matrix(0,1,-1,0,0,0)">
     <g  id="copper1">
      <g  id="copper0">
@@ -110,7 +110,7 @@
   </g>
  </g>
  <g partID="144931">
-  <g transform="translate(100.622,89.082)">
+  <g transform="translate(101.375,90.5879)">
    <g transform="matrix(0,1,-1,0,0,0)">
     <g  id="copper1">
      <g  id="copper0">
@@ -123,7 +123,7 @@
   </g>
  </g>
  <g partID="145271">
-  <g transform="translate(136.943,89.082)">
+  <g transform="translate(137.696,90.5879)">
    <g transform="matrix(0,1,-1,0,0,0)">
     <g id="copper1">
      <g id="copper0">
@@ -136,7 +136,7 @@
   </g>
  </g>
  <g partID="145451">
-  <g transform="translate(79.9711,79.0708)">
+  <g transform="translate(80.7241,80.5767)">
    <g transform="matrix(0,-1,1,0,0,0)">
     <g id="copper1">
      <g id="copper0">
@@ -149,7 +149,7 @@
   </g>
  </g>
  <g partID="145551">
-  <g transform="translate(114.647,79.0708)">
+  <g transform="translate(115.399,80.5767)">
    <g transform="matrix(0,-1,1,0,0,0)">
     <g id="copper1">
      <g id="copper0">
@@ -162,7 +162,7 @@
   </g>
  </g>
  <g partID="145691">
-  <g transform="translate(147.967,79.0708)">
+  <g transform="translate(148.72,80.5767)">
    <g transform="matrix(0,-1,1,0,0,0)">
     <g id="copper1">
      <g id="copper0">
@@ -175,7 +175,7 @@
   </g>
  </g>
  <g partID="97871">
-  <g transform="translate(13.5241,163.601)">
+  <g transform="translate(14.277,165.107)">
    <g transform="matrix(0,-1,1,0,0,0)">
     <g  id="copper1">
      <g  id="copper0">
@@ -183,6 +183,19 @@
       <circle fill="none" cx="5.04"  cy="5.04" stroke="black" id="connector0pin" r="2.088" stroke-width="1.44"/>
       <circle fill="none" cx="5.04"  cy="19.44" stroke="black" id="connector1pin" r="2.088" stroke-width="1.44"/>
       <circle fill="none" cx="5.04"  cy="33.84" stroke="black" id="connector2pin" r="2.088" stroke-width="1.44"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="345902">
+  <g transform="translate(151.079,152.024)">
+   <g transform="matrix(0,-1,1,0,0,0)">
+    <g id="copper1">
+     <g id="copper0">
+      <rect width="4.32" x="12.24" y="6.72661" fill="none" height="4.32" stroke="black" id="square" stroke-width="1.44"/>
+      <circle fill="none" cx="14.4" cy="8.8866" stroke="black" id="connector0pin" r="2.16" stroke-width="1.44"/>
+      <circle fill="none" cx="14.4" cy="23.0599" stroke="black" id="connector1pin" r="2.16" stroke-width="1.44"/>
      </g>
     </g>
    </g>
