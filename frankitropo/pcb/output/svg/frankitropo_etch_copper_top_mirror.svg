@@ -189,8 +189,27 @@
     </g>
    </g>
   </g>
-  <g partID="345902">
-   <g transform="translate(151.079,152.024)">
+  <g partID="348422">
+   <g transform="translate(155.128,150.39)">
+    <g transform="matrix(-1,0,0,-1,0,0)">
+     <g flipped="1" id="copper1">
+      <g transform="matrix(-1, 0, 0, 1, 34.2, 0)">
+       <g>
+        <g>
+         <g id="">
+          <rect width="3.96" x="0.72" y="1.116" fill="none" height="3.96" stroke="black" stroke-width="1.44"/>
+          <circle fill="none" cx="2.7" cy="3.096" stroke="black" r="1.98" id="connector0pin" stroke-width="1.44"/>
+          <circle fill="none" cx="31.5" cy="3.096" stroke="black" r="1.98" id="connector1pin" stroke-width="1.44"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="349602">
+   <g transform="translate(155.23,149.899)">
     <g transform="matrix(0,-1,1,0,0,0)">
      <g id="copper1">
       <g id="copper0">
