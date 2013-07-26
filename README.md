@@ -2,7 +2,7 @@
 
 Software y hardware para la instalacion del colectivo **Luz & Fuerza** *Bicinetico*.
 
-El repositorio contiene las fuentes de Arduino y Fritzing para los circuitos. MIAU
+El repositorio contiene las fuentes de Arduino y Fritzing para los circuitos. 
 
 
 # Links
