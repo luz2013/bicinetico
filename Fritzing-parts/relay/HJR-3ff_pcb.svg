@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.2"
+   width="67.329231"
+   height="54.558174"
+   viewBox="0 0 19.001805 15.39753"
+   id="svg2">
+  <metadata
+     id="metadata37">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs35" />
+
+  <g
+     transform="matrix(1.4689508,0,0,1.9752493,0.02381889,-0.02762071)"
+     id="silkscreen">
+    <line
+       class="other"
+       x1="12.8016"
+       y1="0.1016"
+       x2="12.8016"
+       y2="7.7216001"
+       id="line25"
+       style="stroke:#f0f0f0;stroke-width:0.2032;stroke-linecap:round" />
+    <line
+       class="other"
+       x1="12.8016"
+       y1="7.7216001"
+       x2="0.1016"
+       y2="7.7216001"
+       id="line27"
+       style="stroke:#f0f0f0;stroke-width:0.2032;stroke-linecap:round" />
+    <line
+       class="other"
+       x1="0.1016"
+       y1="7.7216001"
+       x2="0.1016"
+       y2="0.1016"
+       id="line29"
+       style="stroke:#f0f0f0;stroke-width:0.2032;stroke-linecap:round" />
+    <line
+       class="other"
+       x1="0.1016"
+       y1="0.1016"
+       x2="12.8016"
+       y2="0.1016"
+       id="line31"
+       style="stroke:#f0f0f0;stroke-width:0.2032;stroke-linecap:round" />
+  </g>
+
+  <g
+     transform="translate(5.2146741,5.146833)"
+     id="copper0">
+    <circle
+       cx="1.3716"
+       cy="6.4516001"
+       r="0.63499999"
+       transform="translate(-3.545913,2.0151739)"
+       id="circle12"
+       style="fill:none;stroke:#f7bd13;stroke-width:0.25400001" />
+    <circle
+       cx="8.9916"
+       cy="6.4516001"
+       r="0.63499999"
+       transform="translate(1.0353761,1.9956125)"
+       id="circle14"
+       style="fill:none;stroke:#f7bd13;stroke-width:0.25400001" />
+    <circle
+       cx="11.5316"
+       cy="6.4516001"
+       r="0.63499999"
+       transform="translate(0.50729642,-4.3583631)"
+       id="circle16"
+       style="fill:none;stroke:#f7bd13;stroke-width:0.25400001" />
+    <circle
+       cx="1.3716"
+       cy="1.3716"
+       r="0.63499999"
+       transform="translate(-3.545913,-4.9036112)"
+       id="circle20"
+       style="fill:none;stroke:#f7bd13;stroke-width:0.25400001" />
+    <circle
+       cx="8.9916"
+       cy="1.3716"
+       r="0.63499999"
+       transform="translate(1.0353761,-4.9036112)"
+       id="circle22"
+       style="fill:none;stroke:#f7bd13;stroke-width:0.25400001" />
+  </g>
+</svg>
