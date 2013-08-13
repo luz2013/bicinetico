@@ -34,9 +34,29 @@ void flash(int interval){
 	}		
 }
 
+void allOn(){
+	for(int i=0; i<frank_num; i++){
+		digitalWrite(frankies[i], HIGH);
+	}
+}
+
+void allOff(){
+	for(int i=0; i<frank_num; i++){
+		digitalWrite(frankies[i], LOW);
+	}	
+}
+
 void loop(){
 	int pot_val = analogRead(pot);
 	int spd = map(pot_val,0, 1023, 50, 800);
- 	flash(spd);
+
+	if(pot_val==0){
+		allOn();
+	} else if (pot_val==1023){
+		allOff();			
+	} else {
+		flash(spd);	
+	}
+ 	
 }
 
