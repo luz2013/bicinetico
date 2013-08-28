@@ -1,8 +1,8 @@
 #include <VirtualWire.h>
 
 int pot = A0; //pin del potenciometro
-int frankies[] = {2,3,4,5,6,7,8,9,10,11,12}; //lista con los pines de los frank
-int frank_num = 11; //numero de franks 
+int frankies[] = {2,3,4,5,6,7,8,9,10,11,12,13}; //lista con los pines de los frank
+int frank_num = 12; //numero de franks 
 int state = LOW; //estado del LED
 long preMillis = 0; //contador de tiempo
 int counter = 0; //cual frank enciende
