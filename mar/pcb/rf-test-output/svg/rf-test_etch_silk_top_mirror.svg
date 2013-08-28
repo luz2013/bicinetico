@@ -1,0 +1,1508 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="2.84893in" x="0in" version="1.2" y="0in"  height="2.24349in" viewBox="0 0 205.123 161.531" baseProfile="tiny" xmlns:svg="http://www.w3.org/2000/svg">
+ <g transform="matrix(-1, 0, 0, 1, 205.123, 0)">
+  <g partID="416992">
+   <g id="silkscreen">
+    <rect width="204.547" x="0.288" y="0.288" fill="none" height="160.955" stroke="black" stroke-width="0.576"/>
+   </g>
+  </g>
+  <g partID="416990">
+   <g id="board">
+    <rect width="204.547" x="0.288" y="0.288" fill="none" height="160.955" stroke="black" fill-opacity="0.5" id="boardoutline" stroke-width="0.5"/>
+   </g>
+  </g>
+  <g partID="420962">
+   <g transform="translate(4.9112,4.504)">
+    <g id="silkscreen">
+     <path fill="none" stroke="black" id="_x30_.1.0" stroke-width="0.576" d="M182.808,0.288l4.309,4.304l0,32.276l7.182,7.172l0,92.526l-7.182,7.172l0,4.351c0.162,1.396,-0.838,2.66,-2.234,2.824c-0.191,0.021,-0.396,0.021,-0.592,0L3.25,150.913c-1.397,0.164,-2.663,-0.836,-2.827,-2.229c-0.023,-0.197,-0.023,-0.396,0,-0.596L0.423,3.112C0.26,1.715,1.261,0.45,2.658,0.288c0.197,-0.023,0.396,-0.023,0.592,0L182.808,0.288"/>
+     <g>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.1" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="163.985" y2="140.4" x2="167.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.2" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="167.585" y2="142.2" x2="169.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.3" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="169.384" y2="145.799" x2="169.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.4" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="169.384" y2="147.6" x2="167.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.5" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="169.384" y2="140.4" x2="171.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.6" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="171.185" y2="140.4" x2="174.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.7" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="174.786" y2="142.2" x2="176.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.8" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="176.585" y2="145.799" x2="176.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.9" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="176.585" y2="147.6" x2="174.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.10" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="174.786" y2="147.6" x2="171.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.11" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="171.185" y2="145.799" x2="169.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.12" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="154.985" y2="140.4" x2="156.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.13" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="156.786" y2="140.4" x2="160.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.14" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="160.384" y2="142.2" x2="162.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.15" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="162.185" y2="145.799" x2="162.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.16" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="162.185" y2="147.6" x2="160.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.17" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="160.384" y2="147.6" x2="156.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.18" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="156.786" y2="145.799" x2="154.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.19" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="163.985" y2="142.2" x2="162.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.20" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="162.185" y2="147.6" x2="163.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.21" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="167.585" y2="147.6" x2="163.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.22" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="142.384" y2="140.4" x2="145.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.23" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="145.985" y2="142.2" x2="147.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.24" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="147.786" y2="145.799" x2="147.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.25" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="147.786" y2="147.6" x2="145.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.26" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="147.786" y2="140.4" x2="149.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.27" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="149.585" y2="140.4" x2="153.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.28" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="153.185" y2="142.2" x2="154.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.29" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="154.985" y2="145.799" x2="154.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.30" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="154.985" y2="147.6" x2="153.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.31" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="153.185" y2="147.6" x2="149.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.32" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="149.585" y2="145.799" x2="147.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.33" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="140.585" y2="145.799" x2="140.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.34" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="142.384" y2="142.2" x2="140.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.35" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="140.585" y2="147.6" x2="142.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.36" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="145.985" y2="147.6" x2="142.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.37" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="178.384" y2="140.4" x2="181.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.38" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="181.985" y2="142.2" x2="183.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.39" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="183.786" y2="145.799" x2="183.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.40" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="183.786" y2="147.6" x2="181.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.41" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="178.384" y2="142.2" x2="176.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.42" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="176.585" y2="147.6" x2="178.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.6.1.43" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="181.985" y2="147.6" x2="178.384"/>
+     </g>
+     <line fill="none" stroke="black" id="_x30_.1.13.1.2" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="62.464" y2="10.8" x2="58.864"/>
+     <line fill="none" stroke="black" id="_x30_.1.13.1.8" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="76.864" y2="10.8" x2="73.264"/>
+     <line fill="none" stroke="black" id="_x30_.1.13.1.13" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="69.665" y2="10.8" x2="66.064"/>
+     <line fill="none" stroke="black" id="_x30_.1.13.1.20" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="84.065" y2="10.8" x2="80.464"/>
+     <line fill="none" stroke="black" id="_x30_.1.13.1.29" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="98.464" y2="10.8" x2="94.864"/>
+     <line fill="none" stroke="black" id="_x30_.1.13.1.34" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="91.263" y2="10.8" x2="87.665"/>
+     <line fill="none" stroke="black" id="_x30_.1.13.1.41" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="105.665" y2="10.8" x2="102.065"/>
+     <line fill="none" stroke="black" id="_x30_.1.13.1.50" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="120.065" y2="10.8" x2="116.464"/>
+     <line fill="none" stroke="black" id="_x30_.1.13.1.55" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="112.864" y2="10.8" x2="109.263"/>
+     <line fill="none" stroke="black" id="_x30_.1.13.1.65" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="55.264" y2="10.8" x2="51.665"/>
+     <g>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.1" stroke-linecap="round" y1="9" stroke-width="0.432" x1="64.264" y2="10.8" x2="62.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.3" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="58.864" y2="9" x2="57.064"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.4" stroke-linecap="round" y1="9" stroke-width="0.432" x1="57.064" y2="5.4" x2="57.064"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.5" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="57.064" y2="3.6" x2="58.864"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.6" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="58.864" y2="3.6" x2="62.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.7" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="62.464" y2="5.4" x2="64.264"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.9" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="73.264" y2="9" x2="71.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.10" stroke-linecap="round" y1="9" stroke-width="0.432" x1="71.464" y2="5.4" x2="71.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.11" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="71.464" y2="3.6" x2="73.264"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.12" stroke-linecap="round" y1="9" stroke-width="0.432" x1="71.464" y2="10.8" x2="69.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.14" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="66.064" y2="9" x2="64.264"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.15" stroke-linecap="round" y1="9" stroke-width="0.432" x1="64.264" y2="5.4" x2="64.264"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.16" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="64.264" y2="3.6" x2="66.064"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.17" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="66.064" y2="3.6" x2="69.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.18" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="69.665" y2="5.4" x2="71.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.19" stroke-linecap="round" y1="9" stroke-width="0.432" x1="85.864" y2="10.8" x2="84.065"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.21" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="80.464" y2="9" x2="78.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.22" stroke-linecap="round" y1="9" stroke-width="0.432" x1="78.665" y2="5.4" x2="78.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.23" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="78.665" y2="3.6" x2="80.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.24" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="80.464" y2="3.6" x2="84.065"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.25" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="84.065" y2="5.4" x2="85.864"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.26" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="76.864" y2="9" x2="78.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.27" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="78.665" y2="3.6" x2="76.864"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.28" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="73.264" y2="3.6" x2="76.864"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.30" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="94.864" y2="9" x2="93.065"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.31" stroke-linecap="round" y1="9" stroke-width="0.432" x1="93.065" y2="5.4" x2="93.065"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.32" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="93.065" y2="3.6" x2="94.864"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.33" stroke-linecap="round" y1="9" stroke-width="0.432" x1="93.065" y2="10.8" x2="91.263"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.35" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="87.665" y2="9" x2="85.864"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.36" stroke-linecap="round" y1="9" stroke-width="0.432" x1="85.864" y2="5.4" x2="85.864"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.37" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="85.864" y2="3.6" x2="87.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.38" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="87.665" y2="3.6" x2="91.263"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.39" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="91.263" y2="5.4" x2="93.065"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.40" stroke-linecap="round" y1="9" stroke-width="0.432" x1="107.464" y2="10.8" x2="105.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.42" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="102.065" y2="9" x2="100.263"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.43" stroke-linecap="round" y1="9" stroke-width="0.432" x1="100.263" y2="5.4" x2="100.263"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.44" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="100.263" y2="3.6" x2="102.065"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.45" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="102.065" y2="3.6" x2="105.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.46" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="105.665" y2="5.4" x2="107.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.47" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="98.464" y2="9" x2="100.263"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.48" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="100.263" y2="3.6" x2="98.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.49" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="94.864" y2="3.6" x2="98.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.51" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="116.464" y2="9" x2="114.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.52" stroke-linecap="round" y1="9" stroke-width="0.432" x1="114.665" y2="5.4" x2="114.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.53" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="114.665" y2="3.6" x2="116.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.54" stroke-linecap="round" y1="9" stroke-width="0.432" x1="114.665" y2="10.8" x2="112.864"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.56" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="109.263" y2="9" x2="107.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.57" stroke-linecap="round" y1="9" stroke-width="0.432" x1="107.464" y2="5.4" x2="107.464"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.58" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="107.464" y2="3.6" x2="109.263"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.59" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="109.263" y2="3.6" x2="112.864"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.60" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="112.864" y2="5.4" x2="114.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.61" stroke-linecap="round" y1="9" stroke-width="0.432" x1="121.864" y2="5.4" x2="121.864"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.62" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="120.065" y2="9" x2="121.864"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.63" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="121.864" y2="3.6" x2="120.065"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.64" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="116.464" y2="3.6" x2="120.065"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.66" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="51.665" y2="9" x2="49.863"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.67" stroke-linecap="round" y1="9" stroke-width="0.432" x1="49.863" y2="5.4" x2="49.863"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.68" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="49.863" y2="3.6" x2="51.665"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.69" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="55.264" y2="9" x2="57.064"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.70" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="57.064" y2="3.6" x2="55.264"/>
+      <line fill="none" stroke="black" id="_x30_.1.13.1.71" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="51.665" y2="3.6" x2="55.264"/>
+     </g>
+     <g>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.1" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="138.784" y2="10.8" x2="135.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.2" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="135.185" y2="9" x2="133.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.3" stroke-linecap="round" y1="9" stroke-width="0.432" x1="133.384" y2="5.4" x2="133.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.4" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="133.384" y2="3.6" x2="135.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.5" stroke-linecap="round" y1="9" stroke-width="0.432" x1="147.786" y2="10.8" x2="145.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.6" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="145.985" y2="10.8" x2="142.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.7" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="142.384" y2="9" x2="140.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.8" stroke-linecap="round" y1="9" stroke-width="0.432" x1="140.585" y2="5.4" x2="140.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.9" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="140.585" y2="3.6" x2="142.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.10" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="142.384" y2="3.6" x2="145.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.11" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="145.985" y2="5.4" x2="147.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.12" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="138.784" y2="9" x2="140.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.13" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="140.585" y2="3.6" x2="138.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.14" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="135.185" y2="3.6" x2="138.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.15" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="160.384" y2="10.8" x2="156.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.16" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="156.786" y2="9" x2="154.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.17" stroke-linecap="round" y1="9" stroke-width="0.432" x1="154.985" y2="5.4" x2="154.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.18" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="154.985" y2="3.6" x2="156.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.19" stroke-linecap="round" y1="9" stroke-width="0.432" x1="154.985" y2="10.8" x2="153.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.20" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="153.185" y2="10.8" x2="149.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.21" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="149.585" y2="9" x2="147.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.22" stroke-linecap="round" y1="9" stroke-width="0.432" x1="147.786" y2="5.4" x2="147.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.23" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="147.786" y2="3.6" x2="149.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.24" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="149.585" y2="3.6" x2="153.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.25" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="153.185" y2="5.4" x2="154.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.26" stroke-linecap="round" y1="9" stroke-width="0.432" x1="169.384" y2="10.8" x2="167.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.27" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="167.585" y2="10.8" x2="163.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.28" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="163.985" y2="9" x2="162.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.29" stroke-linecap="round" y1="9" stroke-width="0.432" x1="162.185" y2="5.4" x2="162.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.30" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="162.185" y2="3.6" x2="163.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.31" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="163.985" y2="3.6" x2="167.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.32" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="167.585" y2="5.4" x2="169.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.33" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="160.384" y2="9" x2="162.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.34" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="162.185" y2="3.6" x2="160.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.35" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="156.786" y2="3.6" x2="160.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.36" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="181.985" y2="10.8" x2="178.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.37" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="178.384" y2="9" x2="176.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.38" stroke-linecap="round" y1="9" stroke-width="0.432" x1="176.585" y2="5.4" x2="176.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.39" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="176.585" y2="3.6" x2="178.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.40" stroke-linecap="round" y1="9" stroke-width="0.432" x1="176.585" y2="10.8" x2="174.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.41" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="174.786" y2="10.8" x2="171.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.42" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="171.185" y2="9" x2="169.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.43" stroke-linecap="round" y1="9" stroke-width="0.432" x1="169.384" y2="5.4" x2="169.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.44" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="169.384" y2="3.6" x2="171.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.45" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="171.185" y2="3.6" x2="174.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.46" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="174.786" y2="5.4" x2="176.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.47" stroke-linecap="round" y1="9" stroke-width="0.432" x1="183.786" y2="5.4" x2="183.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.48" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="181.985" y2="9" x2="183.786"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.49" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="183.786" y2="3.6" x2="181.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.50" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="178.384" y2="3.6" x2="181.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.51" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="131.585" y2="10.8" x2="127.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.52" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="127.985" y2="9" x2="126.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.53" stroke-linecap="round" y1="9" stroke-width="0.432" x1="126.185" y2="5.4" x2="126.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.54" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="126.185" y2="3.6" x2="127.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.55" stroke-linecap="round" y1="10.8" stroke-width="0.432" x1="131.585" y2="9" x2="133.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.56" stroke-linecap="round" y1="5.4" stroke-width="0.432" x1="133.384" y2="3.6" x2="131.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.14.1.57" stroke-linecap="round" y1="3.6" stroke-width="0.432" x1="127.985" y2="3.6" x2="131.585"/>
+     </g>
+     <g>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.1" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="120.784" y2="140.4" x2="124.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.2" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="124.384" y2="142.2" x2="126.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.3" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="126.185" y2="145.799" x2="126.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.4" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="126.185" y2="147.6" x2="124.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.5" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="111.784" y2="140.4" x2="113.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.6" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="113.585" y2="140.4" x2="117.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.7" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="117.185" y2="142.2" x2="118.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.8" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="118.985" y2="145.799" x2="118.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.9" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="118.985" y2="147.6" x2="117.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.10" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="117.185" y2="147.6" x2="113.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.11" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="113.585" y2="145.799" x2="111.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.12" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="120.784" y2="142.2" x2="118.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.13" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="118.985" y2="147.6" x2="120.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.14" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="124.384" y2="147.6" x2="120.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.15" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="99.185" y2="140.4" x2="102.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.16" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="102.784" y2="142.2" x2="104.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.17" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="104.585" y2="145.799" x2="104.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.18" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="104.585" y2="147.6" x2="102.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.19" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="104.585" y2="140.4" x2="106.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.20" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="106.384" y2="140.4" x2="109.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.21" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="109.985" y2="142.2" x2="111.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.22" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="111.784" y2="145.799" x2="111.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.23" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="111.784" y2="147.6" x2="109.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.24" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="109.985" y2="147.6" x2="106.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.25" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="106.384" y2="145.799" x2="104.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.26" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="90.184" y2="140.4" x2="91.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.27" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="91.985" y2="140.4" x2="95.584"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.28" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="95.584" y2="142.2" x2="97.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.29" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="97.384" y2="145.799" x2="97.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.30" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="97.384" y2="147.6" x2="95.584"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.31" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="95.584" y2="147.6" x2="91.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.32" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="91.985" y2="145.799" x2="90.184"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.33" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="99.185" y2="142.2" x2="97.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.34" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="97.384" y2="147.6" x2="99.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.35" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="102.784" y2="147.6" x2="99.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.36" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="77.584" y2="140.4" x2="81.184"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.37" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="81.184" y2="142.2" x2="82.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.38" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="82.985" y2="145.799" x2="82.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.39" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="82.985" y2="147.6" x2="81.184"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.40" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="82.985" y2="140.4" x2="84.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.41" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="84.784" y2="140.4" x2="88.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.42" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="88.384" y2="142.2" x2="90.184"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.43" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="90.184" y2="145.799" x2="90.184"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.44" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="90.184" y2="147.6" x2="88.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.45" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="88.384" y2="147.6" x2="84.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.46" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="84.784" y2="145.799" x2="82.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.47" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="75.784" y2="145.799" x2="75.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.48" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="77.584" y2="142.2" x2="75.784"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.49" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="75.784" y2="147.6" x2="77.584"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.50" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="81.184" y2="147.6" x2="77.584"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.51" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="127.985" y2="140.4" x2="131.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.52" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="131.585" y2="142.2" x2="133.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.53" stroke-linecap="round" y1="142.2" stroke-width="0.432" x1="133.384" y2="145.799" x2="133.384"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.54" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="133.384" y2="147.6" x2="131.585"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.55" stroke-linecap="round" y1="140.4" stroke-width="0.432" x1="127.985" y2="142.2" x2="126.185"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.56" stroke-linecap="round" y1="145.799" stroke-width="0.432" x1="126.185" y2="147.6" x2="127.985"/>
+      <line fill="none" stroke="black" id="_x30_.1.20.1.57" stroke-linecap="round" y1="147.6" stroke-width="0.432" x1="131.585" y2="147.6" x2="127.985"/>
+     </g>
+     <g id="_x30_.1.33">
+      <title id="0.1.33.0">element:Z1</title>
+      <g id="_x30_.1.33.1">
+       <title id="0.1.33.1.0">package:CT/CN0603</title>
+      </g>
+     </g>
+     <g id="_x30_.1.34">
+      <title id="0.1.34.0">element:Z2</title>
+      <g id="_x30_.1.34.1">
+       <title id="0.1.34.1.0">package:CT/CN0603</title>
+      </g>
+     </g>
+     <g>
+      <title id="0.1.0.1.0">layer 21</title>
+      <g id="_x30_.1.0.1.2">
+       <title id="0.1.0.1.2.0">text:MADE IN</title>
+      </g>
+      <g id="_x30_.1.0.1.3">
+       <title id="0.1.0.1.3.0">text:ITALY</title>
+      </g>
+      <g id="_x30_.1.0.1.4">
+       <title id="0.1.0.1.4.0">text:Prototype</title>
+      </g>
+      <g id="_x30_.1.0.1.5">
+       <title id="0.1.0.1.5.0">text:Limited</title>
+      </g>
+      <g id="_x30_.1.0.1.6">
+       <title id="0.1.0.1.6.0">text:Edition</title>
+      </g>
+      <g id="_x30_.1.0.1.7">
+       <g id="_x30_.1.0.1.7.0">
+        <g transform="matrix(1, 0, 0, 1, 102.569, 12.24)">
+         <g id="_x30_.1.0.1.7.0.0">
+          <g id="_x30_.1.0.1.7.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.7.0.0.0.0">
+             <g id="_x30_.1.0.1.7.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -5.1472, -0.9391)">
+               <g id="_x30_.1.0.1.7.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, -3.05176e-05, -17.7876)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.7.0.0.0.0.0.0.0" font-size="3.75">13</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.8">
+       <g id="_x30_.1.0.1.8.0">
+        <g transform="matrix(1, 0, 0, 1, 109.769, 12.24)">
+         <g id="_x30_.1.0.1.8.0.0">
+          <g id="_x30_.1.0.1.8.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.8.0.0.0.0">
+             <g id="_x30_.1.0.1.8.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -5.1472, -0.9384)">
+               <g id="_x30_.1.0.1.8.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, -3.05176e-05, -17.7871)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.8.0.0.0.0.0.0.0" font-size="3.75">12</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.9">
+       <g id="_x30_.1.0.1.9.0">
+        <g transform="matrix(1, 0, 0, 1, 116.969, 12.24)">
+         <g id="_x30_.1.0.1.9.0.0">
+          <g id="_x30_.1.0.1.9.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.9.0.0.0.0">
+             <g id="_x30_.1.0.1.9.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -5.1472, -0.9392)">
+               <g id="_x30_.1.0.1.9.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, -3.05176e-05, -17.7866)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.9.0.0.0.0.0.0.0" font-size="3.75">11</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.10">
+       <g id="_x30_.1.0.1.10.0">
+        <g transform="matrix(1, 0, 0, 1, 124.169, 12.24)">
+         <g id="_x30_.1.0.1.10.0.0">
+          <g id="_x30_.1.0.1.10.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.10.0.0.0.0">
+             <g id="_x30_.1.0.1.10.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -5.1472, -0.94)">
+               <g id="_x30_.1.0.1.10.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, -3.05176e-05, -17.7886)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.10.0.0.0.0.0.0.0" font-size="3.75">10</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.11">
+       <g id="_x30_.1.0.1.11.0">
+        <g transform="matrix(1, 0, 0, 1, 131.369, 12.24)">
+         <g id="_x30_.1.0.1.11.0.0">
+          <g id="_x30_.1.0.1.11.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.11.0.0.0.0">
+             <g id="_x30_.1.0.1.11.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -2.4402, -0.9388)">
+               <g id="_x30_.1.0.1.11.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 0, -17.7867)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.11.0.0.0.0.0.0.0" font-size="3.75">9</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.12">
+       <g id="_x30_.1.0.1.12.0">
+        <g transform="matrix(1, 0, 0, 1, 138.569, 12.24)">
+         <g id="_x30_.1.0.1.12.0.0">
+          <g id="_x30_.1.0.1.12.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.12.0.0.0.0">
+             <g id="_x30_.1.0.1.12.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -2.4402, -0.9396)">
+               <g id="_x30_.1.0.1.12.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 0, -17.7886)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.12.0.0.0.0.0.0.0" font-size="3.75">8</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.13">
+       <g id="_x30_.1.0.1.13.0">
+        <g transform="matrix(1, 0, 0, 1, 150.089, 12.24)">
+         <g id="_x30_.1.0.1.13.0.0">
+          <g id="_x30_.1.0.1.13.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.13.0.0.0.0">
+             <g id="_x30_.1.0.1.13.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -2.4402, -0.9401)">
+               <g id="_x30_.1.0.1.13.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 0, -17.7886)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.13.0.0.0.0.0.0.0" font-size="3.75">7</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.14">
+       <g id="_x30_.1.0.1.14.0">
+        <g transform="matrix(1, 0, 0, 1, 157.289, 12.24)">
+         <g id="_x30_.1.0.1.14.0.0">
+          <g id="_x30_.1.0.1.14.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.14.0.0.0.0">
+             <g id="_x30_.1.0.1.14.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -2.4402, -0.9389)">
+               <g id="_x30_.1.0.1.14.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 0, -17.7886)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.14.0.0.0.0.0.0.0" font-size="3.75">6</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.15">
+       <g id="_x30_.1.0.1.15.0">
+        <g transform="matrix(1, 0, 0, 1, 164.489, 12.24)">
+         <g id="_x30_.1.0.1.15.0.0">
+          <g id="_x30_.1.0.1.15.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.15.0.0.0.0">
+             <g id="_x30_.1.0.1.15.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -2.4402, -0.9397)">
+               <g id="_x30_.1.0.1.15.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 0, -17.7886)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.15.0.0.0.0.0.0.0" font-size="3.75">5</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.16">
+       <g id="_x30_.1.0.1.16.0">
+        <g transform="matrix(1, 0, 0, 1, 171.689, 12.24)">
+         <g id="_x30_.1.0.1.16.0.0">
+          <g id="_x30_.1.0.1.16.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.16.0.0.0.0">
+             <g id="_x30_.1.0.1.16.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -2.4402, -0.9405)">
+               <g id="_x30_.1.0.1.16.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 0, -17.7886)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.16.0.0.0.0.0.0.0" font-size="3.75">4</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.17">
+       <g id="_x30_.1.0.1.17.0">
+        <g transform="matrix(1, 0, 0, 1, 178.889, 12.24)">
+         <g id="_x30_.1.0.1.17.0.0">
+          <g id="_x30_.1.0.1.17.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.17.0.0.0.0">
+             <g id="_x30_.1.0.1.17.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -2.4402, -0.9393)">
+               <g id="_x30_.1.0.1.17.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 0, -17.7887)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.17.0.0.0.0.0.0.0" font-size="3.75">3</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.18">
+       <g id="_x30_.1.0.1.18.0">
+        <g transform="matrix(1, 0, 0, 1, 186.089, 12.24)">
+         <g id="_x30_.1.0.1.18.0.0">
+          <g id="_x30_.1.0.1.18.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.1.18.0.0.0.0">
+             <g id="_x30_.1.0.1.18.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -2.4402, -0.9401)">
+               <g id="_x30_.1.0.1.18.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 0, -17.7887)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.1.18.0.0.0.0.0.0.0" font-size="3.75">2</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.20">
+       <title id="0.1.0.1.20.0">element:C1</title>
+       <g id="_x30_.1.0.1.20.1">
+        <title id="0.1.0.1.20.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.21">
+       <title id="0.1.0.1.21.0">element:C2</title>
+       <g id="_x30_.1.0.1.21.1">
+        <title id="0.1.0.1.21.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.22">
+       <title id="0.1.0.1.22.0">element:C3</title>
+       <g id="_x30_.1.0.1.22.1">
+        <title id="0.1.0.1.22.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.23">
+       <title id="0.1.0.1.23.0">element:C4</title>
+       <g id="_x30_.1.0.1.23.1">
+        <title id="0.1.0.1.23.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.24">
+       <title id="0.1.0.1.24.0">element:C5</title>
+       <g id="_x30_.1.0.1.24.1">
+        <title id="0.1.0.1.24.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.25">
+       <title id="0.1.0.1.25.0">element:C6</title>
+       <g id="_x30_.1.0.1.25.1">
+        <title id="0.1.0.1.25.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.26">
+       <title id="0.1.0.1.26.0">element:C7</title>
+       <g id="_x30_.1.0.1.26.1">
+        <title id="0.1.0.1.26.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.27">
+       <title id="0.1.0.1.27.0">element:C8</title>
+       <g id="_x30_.1.0.1.27.1">
+        <title id="0.1.0.1.27.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.28">
+       <title id="0.1.0.1.28.0">element:C9</title>
+       <g id="_x30_.1.0.1.28.1">
+        <title id="0.1.0.1.28.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.29">
+       <title id="0.1.0.1.29.0">element:C11</title>
+       <g id="_x30_.1.0.1.29.1">
+        <title id="0.1.0.1.29.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.31">
+       <title id="0.1.0.1.31.0">element:F1</title>
+       <g id="_x30_.1.0.1.31.1">
+        <title id="0.1.0.1.31.1.0">package:L1812</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.32">
+       <title id="0.1.0.1.32.0">element:FD1</title>
+       <g id="_x30_.1.0.1.32.1">
+        <title id="0.1.0.1.32.1.0">package:FIDUCIA-MOUNT</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.33">
+       <title id="0.1.0.1.33.0">element:FD2</title>
+       <g id="_x30_.1.0.1.33.1">
+        <title id="0.1.0.1.33.1.0">package:FIDUCIA-MOUNT</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.34">
+       <title id="0.1.0.1.34.0">element:FD3</title>
+       <g id="_x30_.1.0.1.34.1">
+        <title id="0.1.0.1.34.1.0">package:FIDUCIA-MOUNT</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.35">
+       <title id="0.1.0.1.35.0">element:GROUND</title>
+       <g id="_x30_.1.0.1.35.1">
+        <title id="0.1.0.1.35.1.0">package:SJ</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.44">
+       <title id="0.1.0.1.44.0">element:R1</title>
+       <g id="_x30_.1.0.1.44.1">
+        <title id="0.1.0.1.44.1.0">package:R0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.45">
+       <title id="0.1.0.1.45.0">element:R2</title>
+       <g id="_x30_.1.0.1.45.1">
+        <title id="0.1.0.1.45.1.0">package:R0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.46">
+       <title id="0.1.0.1.46.0">element:RN1</title>
+       <g id="_x30_.1.0.1.46.1">
+        <title id="0.1.0.1.46.1.0">package:CAY16</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.47">
+       <title id="0.1.0.1.47.0">element:RN2</title>
+       <g id="_x30_.1.0.1.47.1">
+        <title id="0.1.0.1.47.1.0">package:CAY16</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.48">
+       <title id="0.1.0.1.48.0">element:RN3</title>
+       <g id="_x30_.1.0.1.48.1">
+        <title id="0.1.0.1.48.1.0">package:CAY16</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.49">
+       <title id="0.1.0.1.49.0">element:RN4</title>
+       <g id="_x30_.1.0.1.49.1">
+        <title id="0.1.0.1.49.1.0">package:CAY16</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.52">
+       <title id="0.1.0.1.52.0">element:Z1</title>
+       <g id="_x30_.1.0.1.52.1">
+        <title id="0.1.0.1.52.1.0">package:CT/CN0603</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.1.53">
+       <title id="0.1.0.1.53.0">element:Z2</title>
+       <g id="_x30_.1.0.1.53.1">
+        <title id="0.1.0.1.53.1.0">package:CT/CN0603</title>
+       </g>
+      </g>
+      <title id="0.1.0.2.0">layer 25</title>
+      <g id="_x30_.1.0.2.1">
+       <g id="_x30_.1.0.2.1.0">
+        <g transform="matrix(0, -1, 1, 0, 127.364, 138.997)">
+         <g id="_x30_.1.0.2.1.0.0">
+          <g transform="matrix(1, 0, 0, 1, 0, -17.7887)">
+           <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.1.0.0.0" font-size="3.3408">5V</text>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.2">
+       <title id="0.1.0.2.2.0">text:A0</title>
+       <g transform="matrix(-4.37114e-08, -1, 1, -4.37114e-08, 163.219, 138.997)">
+        <g id="_x30_.1.0.2.2.1">
+         <g transform="matrix(1, 0, 0, 1, 0, -17.7886)">
+          <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.2.1.0" font-size="3.3408">A0</text>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.4">
+       <g id="_x30_.1.0.2.4.0">
+        <g transform="matrix(1, 0, 0, 1, 87.8933, 11.8426)">
+         <g id="_x30_.1.0.2.4.0.0">
+          <g id="_x30_.1.0.2.4.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.2.4.0.0.0.0">
+             <g id="_x30_.1.0.2.4.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -11.0056, -0.9392)">
+               <g id="_x30_.1.0.2.4.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 6.10352e-05, -17.7877)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.4.0.0.0.0.0.0.0" font-size="3.75">AREF</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.6">
+       <g id="_x30_.1.0.2.6.0">
+        <g transform="matrix(1, 0, 0, 1, 95.4223, 11.9146)">
+         <g id="_x30_.1.0.2.6.0.0">
+          <g id="_x30_.1.0.2.6.0.0.0">
+           <g transform="rotate(-90)">
+            <g id="_x30_.1.0.2.6.0.0.0.0">
+             <g id="_x30_.1.0.2.6.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -8.246, -0.9399)">
+               <g id="_x30_.1.0.2.6.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, -3.05176e-05, -17.7877)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.6.0.0.0.0.0.0.0" font-size="3.75">GND</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.7">
+       <title id="0.1.0.2.7.0">text:M.Banzi</title>
+      </g>
+      <g id="_x30_.1.0.2.8">
+       <title id="0.1.0.2.8.0">text:D.Cuartielles</title>
+      </g>
+      <g id="_x30_.1.0.2.9">
+       <title id="0.1.0.2.9.0">text:D.Mellis</title>
+      </g>
+      <g id="_x30_.1.0.2.12">
+       <title id="0.1.0.2.12.0">text:G.Martino</title>
+      </g>
+      <g id="_x30_.1.0.2.13">
+       <title id="0.1.0.2.13.0">text:T.Igoe</title>
+      </g>
+      <g id="_x30_.1.0.2.14">
+       <g id="_x30_.1.0.2.14.0">
+        <g transform="matrix(1, 0, 0, 1, 112.292, 138.6)">
+         <g id="_x30_.1.0.2.14.0.0">
+          <g id="_x30_.1.0.2.14.0.0.0">
+           <g transform="rotate(270)">
+            <g id="_x30_.1.0.2.14.0.0.0.0">
+             <g id="_x30_.1.0.2.14.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -9.15527e-05, -0.000488281)">
+               <g id="_x30_.1.0.2.14.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 0, -17.7882)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.14.0.0.0.0.0.0.0" font-size="3.3408">RESET</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.15">
+       <g id="_x30_.1.0.2.15.0">
+        <g transform="matrix(1, 0, 0, 1, 120.212, 138.96)">
+         <g id="_x30_.1.0.2.15.0.0">
+          <g id="_x30_.1.0.2.15.0.0.0">
+           <g transform="rotate(270)">
+            <g id="_x30_.1.0.2.15.0.0.0.0">
+             <g id="_x30_.1.0.2.15.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, 0.000534058, -0.000579834)">
+               <g id="_x30_.1.0.2.15.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 3.05176e-05, -17.7887)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.15.0.0.0.0.0.0.0" font-size="3.3408">3V3</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.16">
+       <title id="0.1.0.2.16.0">text:A1</title>
+       <g transform="matrix(-4.37114e-08, -1, 1, -4.37114e-08, 170.418, 138.997)">
+        <g id="_x30_.1.0.2.16.1">
+         <g transform="matrix(1, 0, 0, 1, 0, -17.7887)">
+          <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.16.1.0" font-size="3.3408">A1</text>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.17">
+       <title id="0.1.0.2.17.0">text:A2</title>
+       <g transform="matrix(-4.37114e-08, -1, 1, -4.37114e-08, 177.622, 138.997)">
+        <g id="_x30_.1.0.2.17.1">
+         <g transform="matrix(1, 0, 0, 1, 0, -17.7887)">
+          <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.17.1.0" font-size="3.3408">A2</text>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.18">
+       <title id="0.1.0.2.18.0">text:A3</title>
+       <g transform="matrix(-4.37114e-08, -1, 1, -4.37114e-08, 184.819, 138.997)">
+        <g id="_x30_.1.0.2.18.1">
+         <g transform="matrix(1, 0, 0, 1, 0, -17.7886)">
+          <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.18.1.0" font-size="3.3408">A3</text>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.19">
+       <title id="0.1.0.2.19.0">text:A4</title>
+       <g transform="matrix(-4.37114e-08, -1, 1, -4.37114e-08, 192.02, 138.997)">
+        <g id="_x30_.1.0.2.19.1">
+         <g transform="matrix(1, 0, 0, 1, 0, -17.7886)">
+          <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.19.1.0" font-size="3.3408">A4</text>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.20">
+       <title id="0.1.0.2.20.0">text:A5</title>
+       <g transform="matrix(-4.37114e-08, -1, 1, -4.37114e-08, 199.219, 138.997)">
+        <g id="_x30_.1.0.2.20.1">
+         <g transform="matrix(1, 0, 0, 1, 0, -17.7886)">
+          <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.20.1.0" font-size="3.3408">A5</text>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.21">
+       <g id="_x30_.1.0.2.21.0">
+        <g transform="matrix(-4.37114e-08, -1, 1, -4.37114e-08, 148.965, 138.997)">
+         <g id="_x30_.1.0.2.21.0.0">
+          <g transform="matrix(1, 0, 0, 1, 0, -17.7886)">
+           <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.21.0.0.0" font-size="3.3408">VIN</text>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.22">
+       <g id="_x30_.1.0.2.22.0">
+        <g transform="matrix(-4.37114e-08, -1, 1, -4.37114e-08, 134.561, 138.997)">
+         <g id="_x30_.1.0.2.22.0.0">
+          <g transform="matrix(1, 0, 0, 1, 0, -17.7886)">
+           <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.22.0.0.0" font-size="3.3408">GND</text>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.23">
+       <g id="_x30_.1.0.2.23.0">
+        <g transform="matrix(-4.37114e-08, -1, 1, -4.37114e-08, 141.557, 138.959)">
+         <g id="_x30_.1.0.2.23.0.0">
+          <g transform="matrix(1, 0, 0, 1, 3.05176e-05, -17.7886)">
+           <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.23.0.0.0" font-size="3.3408">GND</text>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.32">
+       <g id="_x30_.1.0.2.32.0">
+        <g transform="matrix(1, 0, 0, 1, 106.172, 138.6)">
+         <g id="_x30_.1.0.2.32.0.0">
+          <g id="_x30_.1.0.2.32.0.0.0">
+           <g transform="rotate(270)">
+            <g id="_x30_.1.0.2.32.0.0.0.0">
+             <g id="_x30_.1.0.2.32.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, -9.15527e-05, -0.00012207)">
+               <g id="_x30_.1.0.2.32.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 0, -17.7877)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.2.32.0.0.0.0.0.0.0" font-size="3.3408">IOREF</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.33">
+       <title id="0.1.0.2.33.0">text:SDA</title>
+      </g>
+      <g id="_x30_.1.0.2.34">
+       <title id="0.1.0.2.34.0">text:SCL</title>
+      </g>
+      <g id="_x30_.1.0.2.35">
+       <title id="0.1.0.2.35.0">element:AD</title>
+       <g id="_x30_.1.0.2.35.1">
+        <title id="0.1.0.2.35.1.0">package:1X06</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.36">
+       <title id="0.1.0.2.36.0">element:C1</title>
+       <g id="_x30_.1.0.2.36.1">
+        <title id="0.1.0.2.36.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.37">
+       <title id="0.1.0.2.37.0">element:C2</title>
+       <g id="_x30_.1.0.2.37.1">
+        <title id="0.1.0.2.37.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.38">
+       <title id="0.1.0.2.38.0">element:C3</title>
+       <g id="_x30_.1.0.2.38.1">
+        <title id="0.1.0.2.38.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.39">
+       <title id="0.1.0.2.39.0">element:C4</title>
+       <g id="_x30_.1.0.2.39.1">
+        <title id="0.1.0.2.39.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.40">
+       <title id="0.1.0.2.40.0">element:C5</title>
+       <g id="_x30_.1.0.2.40.1">
+        <title id="0.1.0.2.40.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.41">
+       <title id="0.1.0.2.41.0">element:C6</title>
+       <g id="_x30_.1.0.2.41.1">
+        <title id="0.1.0.2.41.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.42">
+       <title id="0.1.0.2.42.0">element:C7</title>
+       <g id="_x30_.1.0.2.42.1">
+        <title id="0.1.0.2.42.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.43">
+       <title id="0.1.0.2.43.0">element:C8</title>
+       <g id="_x30_.1.0.2.43.1">
+        <title id="0.1.0.2.43.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.44">
+       <title id="0.1.0.2.44.0">element:C9</title>
+       <g id="_x30_.1.0.2.44.1">
+        <title id="0.1.0.2.44.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.45">
+       <title id="0.1.0.2.45.0">element:C11</title>
+       <g id="_x30_.1.0.2.45.1">
+        <title id="0.1.0.2.45.1.0">package:C0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.46">
+       <title id="0.1.0.2.46.0">element:D1</title>
+       <g id="_x30_.1.0.2.46.1">
+        <title id="0.1.0.2.46.1.0">package:SMB</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.47">
+       <title id="0.1.0.2.47.0">element:D2</title>
+       <g id="_x30_.1.0.2.47.1">
+        <title id="0.1.0.2.47.1.0">package:MINIMELF</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.48">
+       <title id="0.1.0.2.48.0">element:D3</title>
+       <g id="_x30_.1.0.2.48.1">
+        <title id="0.1.0.2.48.1.0">package:MINIMELF</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.49">
+       <title id="0.1.0.2.49.0">element:F1</title>
+       <g id="_x30_.1.0.2.49.1">
+        <title id="0.1.0.2.49.1.0">package:L1812</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.50">
+       <title id="0.1.0.2.50.0">element:FD1</title>
+       <g id="_x30_.1.0.2.50.1">
+        <title id="0.1.0.2.50.1.0">package:FIDUCIA-MOUNT</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.51">
+       <title id="0.1.0.2.51.0">element:FD2</title>
+       <g id="_x30_.1.0.2.51.1">
+        <title id="0.1.0.2.51.1.0">package:FIDUCIA-MOUNT</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.52">
+       <title id="0.1.0.2.52.0">element:FD3</title>
+       <g id="_x30_.1.0.2.52.1">
+        <title id="0.1.0.2.52.1.0">package:FIDUCIA-MOUNT</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.53">
+       <title id="0.1.0.2.53.0">element:GROUND</title>
+       <g id="_x30_.1.0.2.53.1">
+        <title id="0.1.0.2.53.1.0">package:SJ</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.56">
+       <title id="0.1.0.2.56.0">element:ICSP1</title>
+       <g id="_x30_.1.0.2.56.1">
+        <title id="0.1.0.2.56.1.0">package:2X03</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.57">
+       <title id="0.1.0.2.57.0">element:IOH</title>
+       <g id="_x30_.1.0.2.57.1">
+        <title id="0.1.0.2.57.1.0">package:1X10@1</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.58">
+       <title id="0.1.0.2.58.0">element:IOL</title>
+       <g id="_x30_.1.0.2.58.1">
+        <title id="0.1.0.2.58.1.0">package:1X08</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.59">
+       <title id="0.1.0.2.59.0">element:JP2</title>
+       <g id="_x30_.1.0.2.59.1">
+        <title id="0.1.0.2.59.1.0">package:2X02</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.60">
+       <title id="0.1.0.2.60.0">element:L</title>
+       <g id="_x30_.1.0.2.60.1">
+        <title id="0.1.0.2.60.1.0">package:CHIP-LED0805</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.61">
+       <title id="0.1.0.2.61.0">element:L1</title>
+       <g id="_x30_.1.0.2.61.1">
+        <title id="0.1.0.2.61.1.0">package:0805</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.63">
+       <title id="0.1.0.2.63.0">element:PC1</title>
+       <g id="_x30_.1.0.2.63.1">
+        <title id="0.1.0.2.63.1.0">package:PANASONIC_D</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.64">
+       <title id="0.1.0.2.64.0">element:PC2</title>
+       <g id="_x30_.1.0.2.64.1">
+        <title id="0.1.0.2.64.1.0">package:PANASONIC_D</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.65">
+       <title id="0.1.0.2.65.0">element:R1</title>
+       <g id="_x30_.1.0.2.65.1">
+        <title id="0.1.0.2.65.1.0">package:R0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.66">
+       <title id="0.1.0.2.66.0">element:R2</title>
+       <g id="_x30_.1.0.2.66.1">
+        <title id="0.1.0.2.66.1.0">package:R0603-ROUND</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.67">
+       <title id="0.1.0.2.67.0">element:RESET</title>
+       <g id="_x30_.1.0.2.67.1">
+        <title id="0.1.0.2.67.1.0">package:TS42</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.68">
+       <title id="0.1.0.2.68.0">element:RESET-EN</title>
+       <g id="_x30_.1.0.2.68.1">
+        <title id="0.1.0.2.68.1.0">package:SJ</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.69">
+       <title id="0.1.0.2.69.0">element:RN1</title>
+       <g id="_x30_.1.0.2.69.1">
+        <title id="0.1.0.2.69.1.0">package:CAY16</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.70">
+       <title id="0.1.0.2.70.0">element:RN2</title>
+       <g id="_x30_.1.0.2.70.1">
+        <title id="0.1.0.2.70.1.0">package:CAY16</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.71">
+       <title id="0.1.0.2.71.0">element:RN3</title>
+       <g id="_x30_.1.0.2.71.1">
+        <title id="0.1.0.2.71.1.0">package:CAY16</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.72">
+       <title id="0.1.0.2.72.0">element:RN4</title>
+       <g id="_x30_.1.0.2.72.1">
+        <title id="0.1.0.2.72.1.0">package:CAY16</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.73">
+       <title id="0.1.0.2.73.0">element:RX</title>
+       <g id="_x30_.1.0.2.73.1">
+        <title id="0.1.0.2.73.1.0">package:CHIP-LED0805</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.74">
+       <title id="0.1.0.2.74.0">element:T1</title>
+       <g id="_x30_.1.0.2.74.1">
+        <title id="0.1.0.2.74.1.0">package:SOT-23</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.75">
+       <title id="0.1.0.2.75.0">element:TX</title>
+       <g id="_x30_.1.0.2.75.1">
+        <title id="0.1.0.2.75.1.0">package:CHIP-LED0805</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.76">
+       <title id="0.1.0.2.76.0">element:U1</title>
+       <g id="_x30_.1.0.2.76.1">
+        <title id="0.1.0.2.76.1.0">package:SOT223</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.77">
+       <title id="0.1.0.2.77.0">element:U2</title>
+       <g id="_x30_.1.0.2.77.1">
+        <title id="0.1.0.2.77.1.0">package:SOT23-DBV</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.78">
+       <title id="0.1.0.2.78.0">element:U3</title>
+       <g id="_x30_.1.0.2.78.1">
+        <title id="0.1.0.2.78.1.0">package:MLF32</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.79">
+       <title id="0.1.0.2.79.0">element:U5</title>
+       <g id="_x30_.1.0.2.79.1">
+        <title id="0.1.0.2.79.1.0">package:MSOP08</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.80">
+       <title id="0.1.0.2.80.0">element:X1</title>
+       <g id="_x30_.1.0.2.80.1">
+        <title id="0.1.0.2.80.1.0">package:POWERSUPPLY_DC-21MM</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.81">
+       <title id="0.1.0.2.81.0">element:X2</title>
+       <g id="_x30_.1.0.2.81.1">
+        <title id="0.1.0.2.81.1.0">package:PN61729</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.82">
+       <title id="0.1.0.2.82.0">element:Y1</title>
+       <g id="_x30_.1.0.2.82.1">
+        <title id="0.1.0.2.82.1.0">package:QS</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.83">
+       <title id="0.1.0.2.83.0">element:Y2</title>
+       <g id="_x30_.1.0.2.83.1">
+        <title id="0.1.0.2.83.1.0">package:RESONATOR</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.84">
+       <title id="0.1.0.2.84.0">element:Z1</title>
+       <g id="_x30_.1.0.2.84.1">
+        <title id="0.1.0.2.84.1.0">package:CT/CN0603</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.85">
+       <title id="0.1.0.2.85.0">element:Z2</title>
+       <g id="_x30_.1.0.2.85.1">
+        <title id="0.1.0.2.85.1.0">package:CT/CN0603</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.2.86">
+       <title id="0.1.0.2.86.0">element:ZU4</title>
+       <g id="_x30_.1.0.2.86.1">
+        <title id="0.1.0.2.86.1.0">package:DIL28-3</title>
+       </g>
+      </g>
+      <g id="_x30_.1.0.89">
+       <g id="_x30_.1.0.89.0">
+        <g transform="matrix(1, 0, 0, 1, 199.772, 16.2)">
+         <g id="_x30_.1.0.89.0.0">
+          <g id="_x30_.1.0.89.0.0.0">
+           <g transform="rotate(270)">
+            <g id="_x30_.1.0.89.0.0.0.0">
+             <g id="_x30_.1.0.89.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, 1.5198, -0.0449)">
+               <g id="_x30_.1.0.89.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 3.05176e-05, -17.7887)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.89.0.0.0.0.0.0.0" font-size="3.75">0</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.90">
+       <g id="_x30_.1.0.90.0">
+        <g transform="matrix(1, 0, 0, 1, 192.572, 16.2)">
+         <g id="_x30_.1.0.90.0.0">
+          <g id="_x30_.1.0.90.0.0.0">
+           <g transform="rotate(270)">
+            <g id="_x30_.1.0.90.0.0.0.0">
+             <g id="_x30_.1.0.90.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, 1.5198, -0.0441)">
+               <g id="_x30_.1.0.90.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, 3.05176e-05, -17.7887)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.90.0.0.0.0.0.0.0" font-size="3.75">1</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.91">
+       <g id="_x30_.1.0.91.0">
+        <g transform="matrix(1, 0, 0, 1, 192.572, 30.96)">
+         <g id="_x30_.1.0.91.0.0">
+          <g id="_x30_.1.0.91.0.0.0">
+           <g transform="rotate(270)">
+            <g id="_x30_.1.0.91.0.0.0.0">
+             <g id="_x30_.1.0.91.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, 3.524, -0.0441)">
+               <g id="_x30_.1.0.91.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, -3.05176e-05, -17.7887)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.91.0.0.0.0.0.0.0" font-size="3.75">TX0</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.92">
+       <g id="_x30_.1.0.92.0">
+        <g transform="matrix(1, 0, 0, 1, 199.772, 30.96)">
+         <g id="_x30_.1.0.92.0.0">
+          <g id="_x30_.1.0.92.0.0.0">
+           <g transform="rotate(270)">
+            <g id="_x30_.1.0.92.0.0.0.0">
+             <g id="_x30_.1.0.92.0.0.0.0.0">
+              <g transform="matrix(1, 0, 0, 1, 3.524, -0.0449)">
+               <g id="_x30_.1.0.92.0.0.0.0.0.0">
+                <g transform="matrix(1, 0, 0, 1, -3.05176e-05, -17.7887)">
+                 <text fill="black" font-family="'OCRA'" id="_x30_.1.0.92.0.0.0.0.0.0.0" font-size="3.75">RX0</text>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g id="_x30_.1.0.93">
+       <path fill="black" id="_x30_.1.0.93.0" d="M174.323,18.007c-0.004,0,-0.01,0,-0.014,0l-1.945,0c-0.125,0,-0.236,-0.068,-0.297,-0.179c-0.063,-0.11,-0.055,-0.243,0.018,-0.347l0.979,-1.459c0.125,-0.188,0.438,-0.188,0.563,0l0.93,1.394c0.066,0.062,0.113,0.152,0.113,0.253C174.661,17.856,174.509,18.007,174.323,18.007z"/>
+      </g>
+      <g id="_x30_.1.0.94">
+       <path fill="black" id="_x30_.1.0.94.0" d="M179.622,15.88c0.006,0,0.01,0,0.016,0l1.939,0c0.125,0,0.238,0.068,0.301,0.178c0.063,0.111,0.053,0.244,-0.02,0.348l-0.975,1.459c-0.125,0.188,-0.438,0.188,-0.563,0l-0.93,-1.396c-0.07,-0.063,-0.113,-0.151,-0.113,-0.252C179.282,16.032,179.434,15.88,179.622,15.88z"/>
+      </g>
+     </g>
+     <path fill="none" stroke="black" id="_x30_.1.0.2.30.0.0.0.0.0.0.0" stroke-width="0.5" d="M110.583,15.567c0.563,-0.025,0.756,0.265,0.756,0.576c0,0.2,-0.063,0.38,-0.223,0.726c-0.113,0.235,-0.223,0.42,-0.223,0.601c0,0.405,0.352,0.629,0.652,0.639" stroke-miterlimit="10"/>
+     <path fill="none" stroke="black" id="_x30_.1.0.2.30.0.0.0.0.0.0.0_3_" stroke-width="0.5" d="M158.102,15.567c0.561,-0.025,0.756,0.265,0.756,0.576c0,0.2,-0.064,0.38,-0.223,0.726c-0.113,0.235,-0.225,0.42,-0.225,0.601c0,0.405,0.352,0.629,0.652,0.639" stroke-miterlimit="10"/>
+     <path fill="none" stroke="black" id="_x30_.1.0.2.30.0.0.0.0.0.0.0_4_" stroke-width="0.5" d="M143.702,15.673c0.561,-0.025,0.756,0.265,0.756,0.576c0,0.2,-0.063,0.38,-0.221,0.726c-0.115,0.235,-0.227,0.42,-0.227,0.601c0,0.405,0.354,0.629,0.656,0.639" stroke-miterlimit="10"/>
+     <path fill="none" stroke="black" id="_x30_.1.0.2.30.0.0.0.0.0.0.0_5_" stroke-width="0.5" d="M136.501,15.673c0.564,-0.025,0.756,0.265,0.756,0.576c0,0.2,-0.063,0.38,-0.221,0.726c-0.115,0.235,-0.225,0.42,-0.225,0.601c0,0.405,0.352,0.629,0.654,0.639" stroke-miterlimit="10"/>
+     <path fill="none" stroke="black" id="_x30_.1.0.2.30.0.0.0.0.0.0.0_1_" stroke-width="0.5" d="M103.38,18.86c0.564,-0.025,0.756,0.265,0.756,0.576c0,0.2,-0.063,0.38,-0.221,0.726c-0.115,0.235,-0.225,0.42,-0.225,0.601c0,0.405,0.354,0.629,0.654,0.639" stroke-miterlimit="10"/>
+     <path fill="none" stroke="black" id="_x30_.1.0.2.30.0.0.0.0.0.0.0_2_" stroke-width="0.5" d="M96.182,18.86c0.561,-0.025,0.756,0.265,0.756,0.576c0,0.2,-0.063,0.38,-0.222,0.726c-0.114,0.235,-0.228,0.42,-0.228,0.601c0,0.405,0.354,0.629,0.654,0.639" stroke-miterlimit="10"/>
+    </g>
+   </g>
+  </g>
+  <g partID="416992">
+   <g id="silkscreen">
+    <rect width="204.547" x="0.288" y="0.288" fill="none" height="160.955" stroke="black" stroke-width="0.576"/>
+   </g>
+  </g>
+  <g partID="477040">
+   <g transform="translate(194.751,102.227)">
+    <g id="silkscreen">
+     <text x="2.1805" y="3.9249" fill="black" font-family="OCRA" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="label" xml:space="preserve" stroke-width="0" font-size="4.361">B</text>
+    </g>
+   </g>
+  </g>
+  <g partID="477020">
+   <g transform="translate(194.439,107.954)">
+    <g id="silkscreen">
+     <text x="2.1805" y="3.9249" fill="black" font-family="OCRA" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="label" xml:space="preserve" stroke-width="0" font-size="4.361">G</text>
+    </g>
+   </g>
+  </g>
+  <g partID="477000">
+   <g transform="translate(194.171,91.2128)">
+    <g id="silkscreen">
+     <text x="2.1805" y="3.9249" fill="black" font-family="OCRA" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="label" xml:space="preserve" stroke-width="0" font-size="4.361">R</text>
+    </g>
+   </g>
+  </g>
+  <g partID="476980">
+   <g transform="translate(194.461,97.5896)">
+    <g id="silkscreen">
+     <text x="2.1805" y="3.9249" fill="black" font-family="OCRA" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="label" xml:space="preserve" stroke-width="0" font-size="4.361">+</text>
+    </g>
+   </g>
+  </g>
+  <g partID="476890">
+   <g transform="translate(83.3928,43.5232)">
+    <g id="silkscreen">
+     <text x="13.083" y="3.9249" fill="black" font-family="OCRA" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="label" xml:space="preserve" stroke-width="0" font-size="4.36099">Antena</text>
+    </g>
+   </g>
+  </g>
+  <g partID="427822">
+   <g transform="translate(53.3276,35.7961)">
+    <g transform="matrix(0, -1, 1, 0, 0, 7.92)">
+     <g id="silkscreen">
+      <g gorn="0.5.0.0">
+       <line fill="none" gorn="0.5.0.0.0" stroke="black" id="line17" y1="0.36" x1="0.36" y2="29.16" stroke-width="0.72" x2="0.36"/>
+       <line fill="none" gorn="0.5.0.0.1" stroke="black" id="line19" y1="29.16" x1="0.36" y2="29.16" stroke-width="0.72" x2="7.56"/>
+       <line fill="none" gorn="0.5.0.0.2" stroke="black" id="line21" y1="29.16" x1="7.56" y2="0.36" stroke-width="0.72" x2="7.56"/>
+       <line fill="none" gorn="0.5.0.0.3" stroke="black" id="line23" y1="0.36" x1="7.56" y2="0.36" stroke-width="0.72" x2="0.36"/>
+       <line fill="none" gorn="0.5.0.0.4" stroke="black" id="line25" y1="7.56" x1="0.36" y2="7.56" stroke-width="0.72" x2="7.56"/>
+       <line fill="none" gorn="0.5.0.0.5" stroke="black" id="line27" y1="7.56" x1="7.56" y2="0.36" stroke-width="0.72" x2="7.56"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="583202">
+   <g transform="translate(83.5319,116.789)">
+    <g transform="matrix(0,-1,1,0,0,0)">
+     <g id="silkscreen">
+      <line stroke="black" y1="1.44" stroke-width="0.72" x1="1.44" y2="37.44" x2="1.44"/>
+      <line stroke="black" y1="37.44" stroke-width="0.72" x1="1.44" y2="37.44" x2="8.64"/>
+      <line stroke="black" y1="37.44" stroke-width="0.72" x1="8.64" y2="1.44" x2="8.64"/>
+      <line stroke="black" y1="1.44" stroke-width="0.72" x1="8.64" y2="1.44" x2="1.44"/>
+      <line stroke="black" y1="3.96" stroke-width="0.36" x1="1.44" y2="1.44" x2="3.96"/>
+      <!-- 120 -->
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="partLabel" partID="420960">
+   <g transform="translate(7.9096,6.44)">
+    <g fill="#000000" font-family="'OCRA'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel" font-size="5">
+     <text x="0" y="3.75">Arduino</text>
+    </g>
+   </g>
+  </g>
+  <g id="partLabel" partID="427820">
+   <g transform="translate(55.891,45.5584)">
+    <g fill="#000000" font-family="'OCRA'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel" font-size="5">
+     <text x="0" y="3.75">RF - TX</text>
+    </g>
+   </g>
+  </g>
+  <g id="partLabel" partID="583200">
+   <g transform="translate(124.218,109.146)">
+    <g fill="#000000" font-family="'OCRA'" stroke="none" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel" font-size="5">
+     <text x="0" y="3.75">R1</text>
+    </g>
+   </g>
+  </g>
+  <g partID="420961">
+   <g transform="translate(4.9112,4.504)">
+    <g id="copper1">
+     <g id="copper0">
+      <circle fill="white" cx="151.384" cy="144" stroke="white" id="connector1pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="158.583" cy="144" stroke="white" id="connector2pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="165.786" cy="144" stroke="white" id="connector3pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="172.985" cy="144" stroke="white" id="connector4pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="180.184" cy="144" stroke="white" id="connector5pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="118.263" cy="7.2" stroke="white" id="connector51pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="111.065" cy="7.2" stroke="white" id="connector52pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="103.864" cy="7.2" stroke="white" id="connector53pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="96.664" cy="7.2" stroke="white" id="connector54pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="89.464" cy="7.2" stroke="white" id="connector55pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="82.264" cy="7.2" stroke="white" id="connector56pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="75.064" cy="7.2" stroke="white" id="connector57pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="67.864" cy="7.2" stroke="white" id="connector58pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="60.664" cy="7.2" stroke="white" id="connector59pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="53.463" cy="7.2" stroke="white" id="connector60pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="180.184" cy="7.2" stroke="white" id="connector61pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="172.985" cy="7.2" stroke="white" id="connector62pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="165.786" cy="7.2" stroke="white" id="connector63pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="158.583" cy="7.2" stroke="white" id="connector64pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="151.384" cy="7.2" stroke="white" id="connector65pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="144.184" cy="7.2" stroke="white" id="connector66pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="136.985" cy="7.2" stroke="white" id="connector67pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="129.784" cy="7.2" stroke="white" id="connector68pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="86.584" cy="144" stroke="white" id="connector84pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="79.384" cy="144" stroke="white" id="connector91pin" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="93.784" cy="144" stroke="white" id="connector85pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="100.985" cy="144" stroke="white" id="connector86pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="108.184" cy="144" stroke="white" id="connector87pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="115.384" cy="144" stroke="white" id="connector88pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="122.583" cy="144" stroke="white" id="connector89pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="129.784" cy="144" stroke="white" id="connector90pad" r="1.61" stroke-width="1.5313"/>
+      <circle fill="white" cx="144.184" cy="144" stroke="white" id="connector0pad" r="1.61" stroke-width="1.5313"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="427821">
+   <g transform="translate(53.3276,35.7961)">
+    <g transform="matrix(0, -1, 1, 0, 0, 7.92)">
+     <g id="copper1">
+      <g gorn="0.6.0.0.0">
+       <circle fill="white" cx="3.96" gorn="0.6.0.0.0.0" cy="3.96" stroke="white" r="1.764" id="connector0pin" stroke-width="1.512"/>
+       <circle fill="white" cx="3.96" gorn="0.6.0.0.0.1" cy="11.16" stroke="white" r="1.764" id="connector1pin" stroke-width="1.512"/>
+       <circle fill="white" cx="3.96" gorn="0.6.0.0.0.2" cy="18.36" stroke="white" r="1.764" id="connector2pin" stroke-width="1.512"/>
+       <circle fill="white" cx="3.96" gorn="0.6.0.0.0.3" cy="25.56" stroke="white" r="1.764" id="connector4pin" stroke-width="1.512"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="467741">
+   <g transform="translate(87.9808,35.2304)">
+    <g id="copper1">
+     <circle fill="white" cx="4.31559" cy="4.31559" stroke="white" r="1.99559" id="connector0pin" stroke-width="2.16"/>
+    </g>
+   </g>
+  </g>
+  <g partID="583201">
+   <g transform="translate(83.5319,116.789)">
+    <g transform="matrix(0,-1,1,0,0,0)">
+     <g id="copper1">
+      <g id="copper0">
+       <rect width="4.176" x="2.952" y="2.952" fill="white" height="4.176" stroke="white" id="square" stroke-width="2.16"/>
+       <circle fill="white" cx="5.04" cy="5.04" stroke="white" id="connector0pin" r="2.088" stroke-width="2.16"/>
+       <circle fill="white" cx="5.04" cy="19.44" stroke="white" id="connector1pin" r="2.088" stroke-width="2.16"/>
+       <circle fill="white" cx="5.04" cy="33.84" stroke="white" id="connector2pin" r="2.088" stroke-width="2.16"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
