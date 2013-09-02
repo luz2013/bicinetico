@@ -7,7 +7,7 @@ int state = LOW; //estado del LED
 long preMillis = 0; //contador de tiempo
 long mainCounter_prev = 0;
 int machineState = 0;
-int maxMachineState = 1;
+int maxMachineState = 3;
 int counter = 0; //cual frank enciende
 
 //variables para comunicacion inalambrica
@@ -131,14 +131,17 @@ void loop(){
 
 			//Maqina de estados que controla el modo de parpadeo
 			switch (machineState) {
-			     case 1:
+			     case 0:
 			       flash(new_spd, 1); //invoca el modo de parpadeo a la derecha
 			       break;
-			     case 2:
+			     case 1:
 			       flash(new_spd, 2); //invoca el modo de parpadeo inverso
 			       break;
-			     case 3:
+			     case 2:
 			     	flash(new_spd,3); //invoca el modo de parpadeo aleatorio
+			     	break;
+			     case 3:
+			     	allOn(); //los enciende todos
 			     	break;
 			 } 
 		}	
