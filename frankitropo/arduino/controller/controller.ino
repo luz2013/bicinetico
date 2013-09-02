@@ -5,7 +5,11 @@ int frankies[] = {2,3,4,5,6,7,8,9,10,11,12,13}; //lista con los pines de los fra
 int frank_num = 12; //numero de franks 
 int state = LOW; //estado del LED
 long preMillis = 0; //contador de tiempo
+long mainCounter_prev = 0;
+int machineState = 0;
+int maxMachineState = 1;
 int counter = 0; //cual frank enciende
+int counterInverse = frank_num;
 
 //variables para comunicacion inalambrica
 int receiver = 1;
@@ -47,6 +51,43 @@ void flash(int interval){
 	}		
 }
 
+//funcion que controla el encendido y apagado
+void flashInverse(int interval){
+	long curMillis = millis();
+	if(curMillis-preMillis > interval){
+		preMillis = curMillis;
+
+		if(state == LOW){
+			state = HIGH;
+			counterInverse--;
+			if(counter <= 0){
+				counterInverse = frank_num;
+			}
+		} else {
+			state = LOW;
+		}
+		digitalWrite(frankies[counter], state);
+	}		
+}
+
+//Apaga y enciende al azar
+void flashRandom(int interval){
+	long curMillis = millis();
+	int which;
+
+	if(curMillis-preMillis > interval){
+	    preMillis = curMillis;
+
+	    if(state == LOW){
+	        state = HIGH;
+	        which = random(frank_num);
+	    }  else {
+	    	state = LOW;
+	    }
+	    digitalWrite(which, state); 
+	}  
+}
+
 //enciende todos los pines
 void allOn(){
 	for(int i=0; i<frank_num; i++){
@@ -60,6 +101,7 @@ void allOff(){
 		digitalWrite(frankies[i], LOW);
 	}	
 }
+
 
 void loop(){
 	//lee el potenciometro
@@ -83,6 +125,8 @@ void loop(){
 		} else if (pot_val==1023){
 			allOff(); // los apaga todos		
 		} else {
+			//toma el tiempo actual 
+			long mainCounter = millis();
 			//Calculos para cambiar la velocidad de encendido
 			//saca X % del valor de la velocidad dada por el potenciometro
 			int percentage = (spd*change_percentage)/100;
@@ -94,7 +138,29 @@ void loop(){
 			//por via inalambrica, y los valores actuales de modificacion
 			int new_spd = map(velocity, vel_min, vel_max, spd_min, spd_max);
 			
-			flash(new_spd); //llama la funcion flash, que los hace parpadear
+			// Contador para cambiar la maquina de estados
+			// cambia cada segundo
+			if(mainCounter - mainCounter_prev > 1000){
+				mainCounter_prev = mainCounter;
+			   	machineState++;
+				
+				if(machineState > maxMachineState){
+			        machineState = 0;
+			    }   
+			} 
+
+			//Maqina de estados que controla el modo de parpadeo
+			switch (machineState) {
+			     case 1:
+			       flash(new_spd); //llama la funcion que los hace parpadear
+			       break;
+			     case 2:
+			       flashInverse(new_spd); //llama la funcion que parpadea inversamente
+			       break;
+			     case 3:
+			     	flashRandom(new_spd); //llama la funcion de parpadeo aleatorio
+			     	break;
+			 } 
 		}	
 	} else { //Si no hay nadie en la bici
 		allOff(); //apaga todos los franks
