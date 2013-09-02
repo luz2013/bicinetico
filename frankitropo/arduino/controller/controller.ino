@@ -9,7 +9,6 @@ long mainCounter_prev = 0;
 int machineState = 0;
 int maxMachineState = 1;
 int counter = 0; //cual frank enciende
-int counterInverse = frank_num;
 
 //variables para comunicacion inalambrica
 int receiver = 1;
@@ -33,16 +32,33 @@ void setup(){
 }
 
 //funcion que controla el encendido y apagado
-void flash(int interval){
+void flash(int interval, int mode){
 	long curMillis = millis();
 	if(curMillis-preMillis > interval){
 		preMillis = curMillis;
 
 		if(state == LOW){
 			state = HIGH;
-			counter++;
-			if(counter >= frank_num){
-				counter = 0;
+			//cambia los modos de ejecucion del contador
+			switch (mode) {
+				//Cuenta hacia adelante
+			    case 1:
+			      	counter++;
+					if(counter >= frank_num){
+						counter = 0;
+					}
+			      break;
+			    //Cuenta hacia atras
+			    case 2:
+			      	counter--;
+					if(counter <= 0){
+						counter = frank_num;
+					}
+			      break;
+			    //Aleatorio
+			    case 3:
+			      counter = random(frank_num);
+			      break;
 			}
 		} else {
 			state = LOW;
@@ -51,42 +67,6 @@ void flash(int interval){
 	}		
 }
 
-//funcion que controla el encendido y apagado
-void flashInverse(int interval){
-	long curMillis = millis();
-	if(curMillis-preMillis > interval){
-		preMillis = curMillis;
-
-		if(state == LOW){
-			state = HIGH;
-			counterInverse--;
-			if(counter <= 0){
-				counterInverse = frank_num;
-			}
-		} else {
-			state = LOW;
-		}
-		digitalWrite(frankies[counter], state);
-	}		
-}
-
-//Apaga y enciende al azar
-void flashRandom(int interval){
-	long curMillis = millis();
-	int which;
-
-	if(curMillis-preMillis > interval){
-	    preMillis = curMillis;
-
-	    if(state == LOW){
-	        state = HIGH;
-	        which = random(frank_num);
-	    }  else {
-	    	state = LOW;
-	    }
-	    digitalWrite(which, state); 
-	}  
-}
 
 //enciende todos los pines
 void allOn(){
@@ -139,8 +119,8 @@ void loop(){
 			int new_spd = map(velocity, vel_min, vel_max, spd_min, spd_max);
 			
 			// Contador para cambiar la maquina de estados
-			// cambia cada segundo
-			if(mainCounter - mainCounter_prev > 1000){
+			// cambia cada 10 segundos
+			if(mainCounter - mainCounter_prev > 10000){
 				mainCounter_prev = mainCounter;
 			   	machineState++;
 				
@@ -152,13 +132,13 @@ void loop(){
 			//Maqina de estados que controla el modo de parpadeo
 			switch (machineState) {
 			     case 1:
-			       flash(new_spd); //llama la funcion que los hace parpadear
+			       flash(new_spd, 1); //invoca el modo de parpadeo a la derecha
 			       break;
 			     case 2:
-			       flashInverse(new_spd); //llama la funcion que parpadea inversamente
+			       flash(new_spd, 2); //invoca el modo de parpadeo inverso
 			       break;
 			     case 3:
-			     	flashRandom(new_spd); //llama la funcion de parpadeo aleatorio
+			     	flash(new_spd,3); //invoca el modo de parpadeo aleatorio
 			     	break;
 			 } 
 		}	
