@@ -2,13 +2,14 @@
 
 //pines
 int person = A0;
-int reed = 2; //sensor de presencia
+int reed = 2; //efecto hall
 
 int led1 = 3; //leds de indicacion de velocidad
 int led2 = 5;
 int led3 = 6;
 
-int relay = 4; //relay para el alternador
+int relay_carga = 7; //relay_carga para el alternador
+int relay_negat = 8;
 int transmitter = 4;
 
 
@@ -39,6 +40,10 @@ float vel; //velocidad
 //para el calculo de tiempo
 volatile unsigned long actualBang = 0;
 unsigned long timeOld = 0;
+unsigned long timeNeg = 0;
+unsigned long timeNegOpen = 0;
+boolean waiting_neg = false;
+boolean waiting_neg_open = false;
 
 //para guardar el mensaje a enviar inalambricamente
 unsigned char msg[2] = {0,0}; 
@@ -57,7 +62,8 @@ void setup(){
 	pinMode(led1, OUTPUT);
 	pinMode(led2, OUTPUT);
 	pinMode(led3, OUTPUT);
-	pinMode(relay, OUTPUT);
+	pinMode(relay_carga, OUTPUT);
+	pinMode(relay_negat, OUTPUT);
 
 	//activa la interrupcion en el pin 2
 	attachInterrupt(0, rpm_sum, FALLING);
@@ -103,10 +109,35 @@ void loop() {
 		//enciende el led
 		if(vel >= vel_alternador){
 			digitalWrite(led1, HIGH);
-			digitalWrite(relay, HIGH);
+			digitalWrite(relay_carga, HIGH);
+
+			if(!waiting_neg){
+				timeNeg = millis();
+				waiting_neg = true;
+			}
+
+			if(waiting_neg){
+				if(mills() - timeNeg >= 5000){
+					digitalWrite(relay_negat, HIGH);
+					waiting_neg_open = false;
+				}
+			}
+
 		} else {
 			digitalWrite(led1, LOW);
-			digitalWrite(relay, LOW);
+			digitalWrite(relay_carga, LOW);
+
+			if(!waiting_neg_open){
+				timeNegOpen = millis();
+				waiting_neg_open = true;
+			}
+
+			if(waiting_neg_open){
+				if(millis() - timeNegOpen >= 5000){
+					digitalWrite(relay_negat, LOW);
+					waiting_neg = false;
+				}
+			}
 		}
 
 		// indica diferentes niveles de velocidad
@@ -128,8 +159,8 @@ void loop() {
 		someone = 0;
 		vel = 0;
 		distance = 0;
-		// apaga el relay
-		digitalWrite(relay, LOW);
+		// apaga el relay_carga
+		digitalWrite(relay_carga, LOW);
 	}
 
 	//envia los datos inalambricamente
