@@ -5,7 +5,7 @@
 */
 
 //variables para comunicacion inalambrica
-int receiver = 1;
+int receiver = 3;
 
 void setup(){
     Serial.begin(9600);
@@ -18,13 +18,19 @@ void setup(){
 
 
 void loop(){
+    
 
     //comunicacion inalambrica
     uint8_t buf[VW_MAX_MESSAGE_LEN];
     uint8_t buflen = VW_MAX_MESSAGE_LEN;
+
+
     if (vw_get_message(buf, &buflen)){
-        Serial.println("Alguien: " + buf[0]);
-        Serial.println("Velocidad: "+ buf[1]);
+      Serial.print("Alguien: ");
+      Serial.println(buf[0]);
+      
+      Serial.print("Velocidad: ");
+      Serial.println(buf[1]);
     }
 
 }
