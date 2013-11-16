@@ -16,8 +16,8 @@ int counter = 0; //cual frank enciende
 int receiver = 1;
 int someone = 0;
 int velocity = 0;
-int vel_min = 0;
-int vel_max = 255;
+int vel_min = 200;
+int vel_max = 700;
 int change_percentage = 50; 
 
 void setup(){
