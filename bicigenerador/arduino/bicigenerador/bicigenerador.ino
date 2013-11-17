@@ -42,6 +42,8 @@ de datos
 //Pines. Constantes
 const int iredpin = A0;//Sensor de presencia
 const int led1 = 3;//Led indicador de funcionamiento
+const int led2 = 5;
+const int led3 = 6;
 const int relay_carga = 7;//relevador de carga de bateria
 const int relay_franki = 9;//Relevador de activacion del frankitropo
 const int tx = 4;//Pin de transmision
@@ -109,7 +111,7 @@ void loop ()
     if (vel_time <= vel)//Si hay buena velocidad
     {
 
-      Serial.println("Buena Velocidad!! ")
+      Serial.println("Buena Velocidad!! ");
 
       //Secuencia de encendido del frankitropo, 20segundos
       if (waiter == false)//Si la velocidad no era suficiente iniciar la cuenta de encendido del frankitropo
@@ -123,9 +125,10 @@ void loop ()
         veinte = millis ();//Inicia cuenta de encendido
       }
       //Esperar
-      Serial.println (millis() -veinte);
+      Serial.println ("Esperando 20:  " + millis() -veinte);
       if (millis () - veinte >= twentysecs/* && franki == false*/)//Solo si se ha superado la cuenta
       {
+        digitalWrite(led2, HIGH);
         digitalWrite (relay_franki, HIGH);//Se activa el frankitropo
         Serial.println("ya se debio haber prendido el segundo rele");
         franki = true;
@@ -134,9 +137,10 @@ void loop ()
     else//Si la velocidad no es buena
     {
       Serial.println("Velocidad no es Buena, apaga relays");
-      
+
       //Detener secuencia de carga de bateria
       digitalWrite (led1, LOW);//Se apaga el led
+      digitalWrite (led2, LOW);
       digitalWrite (relay_carga, LOW);//Se apaga el relay de carga
       //Secuencia de apagagado del frankitropo, 20 segundos
       if (waiter == true)//Si la velocidad era suficiente iniciar, la cuenta de apagado del frankitropo
@@ -158,6 +162,7 @@ void loop ()
       someone = 0;//Indicar que no hay nadie sentado
       waiter = false;//Desactivar contador para frankitropo
       digitalWrite (led1, LOW);//Apagar led 1 por si estaba encendido
+      digitalWrite (led2, LOW);
       digitalWrite (relay_carga, LOW);//Detener la carga de la bateria
 /*    
       //Esta exepcion es una propuesta para corregir mal funcionamiento
