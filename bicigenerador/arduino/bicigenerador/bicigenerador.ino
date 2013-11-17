@@ -38,25 +38,30 @@ de datos
 
 //Bibliotecas
 #include <VirtualWire.h>
+
 //Pines. Constantes
 const int iredpin = A0;//Sensor de presencia
 const int led1 = 3;//Led indicador de funcionamiento
 const int relay_carga = 7;//relevador de carga de bateria
 const int relay_franki = 9;//Relevador de activacion del frankitropo
 const int tx = 4;//Pin de transmision
+
 //Valores. Constantes
 const int too_close = 100;//Si se sienta muy cerca
 const int too_far = 900;//Si se sienta muy lejos
 const unsigned long vel = 700;//tiempo entre interrupciones
 const unsigned long twentysecs = 1000;//20 segundos para prender franki
+
 //Timers-RAM
 volatile unsigned long vel_time = 0;
 volatile unsigned long vel_time_c = 0;
 volatile unsigned long veinte = 0;
 volatile unsigned long veinte_off = 0;
+
 //Banderas-RAM
 volatile byte waiter = false;//Indica si estamos contando
 volatile byte franki = false;//indica si el frankitropo esta encendido
+
 //Datos
 int someone = 0;//Indica si hay alguien, inicialmente no hay nadie, debe ser int para enviarse uint8_t
 unsigned char msg[2] = {0,0};
@@ -92,18 +97,25 @@ void loop ()
 
   //prueba sin sensor 
   int sensor_ired = 500;
-  
+
   if (sensor_ired >= too_close && sensor_ired <= too_far)//Verificamos que este cerca
   {
     someone = 1;//indicamos que hay alguien
 
-    Serial.println("Se ha detectado a alguien");//debug    
+    Serial.println("Se ha detectado a alguien");//debug
+    Serial.println("Velocidad " + vel_time);  //debug
+    
     //Si la velocidad es buena iniciar la carga y esperar 20 segundos para alimentar el franki
     if (vel_time <= vel)//Si hay buena velocidad
     {
+
+      Serial.println("Buena Velocidad!! ")
+
       //Secuencia de encendido del frankitropo, 20segundos
       if (waiter == false)//Si la velocidad no era suficiente iniciar la cuenta de encendido del frankitropo
       {
+        Serial.println("encendiendo primer relay");
+
         //Activar secuencia de carga de bateria
         digitalWrite (led1, HIGH);//Encender led
         digitalWrite (relay_carga, HIGH);//Activar carga de bateria
@@ -121,6 +133,8 @@ void loop ()
     }
     else//Si la velocidad no es buena
     {
+      Serial.println("Velocidad no es Buena, apaga relays");
+      
       //Detener secuencia de carga de bateria
       digitalWrite (led1, LOW);//Se apaga el led
       digitalWrite (relay_carga, LOW);//Se apaga el relay de carga
