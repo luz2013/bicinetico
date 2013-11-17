@@ -45,13 +45,13 @@ const int led1 = 3;//Led indicador de funcionamiento
 const int led2 = 5;
 const int led3 = 6;
 const int relay_carga = 7;//relevador de carga de bateria
-const int relay_franki = 9;//Relevador de activacion del frankitropo
+const int relay_franki = 8;//Relevador de activacion del frankitropo
 const int tx = 4;//Pin de transmision
 
 //Valores. Constantes
 const int too_close = 100;//Si se sienta muy cerca
 const int too_far = 900;//Si se sienta muy lejos
-const unsigned long vel = 700;//tiempo entre interrupciones
+const unsigned long vel = 600;//tiempo entre interrupciones
 const unsigned long twentysecs = 1000;//20 segundos para prender franki
 
 //Timers-RAM
@@ -67,6 +67,8 @@ volatile byte franki = false;//indica si el frankitropo esta encendido
 //Datos
 int someone = 0;//Indica si hay alguien, inicialmente no hay nadie, debe ser int para enviarse uint8_t
 unsigned char msg[2] = {0,0};
+
+int sensor_ired = 500;
 
 void setup ()
 {
@@ -86,8 +88,8 @@ void setup ()
   digitalWrite (relay_carga, LOW);
   digitalWrite (relay_franki, LOW);
   //Se incializa la transmision IMPORTANTE: SE USAN INTERRUPCIONES, VERIFICAR TRASLAPO DE PINES
-  vw_set_tx_pin (tx);
-  vw_setup(2000);
+  //vw_set_tx_pin (tx);
+  //vw_setup(2000);
   //Se inicia el marcador de tiempo
   millis();
 }
@@ -97,15 +99,12 @@ void loop ()
   //Primera condicion, que haya alguien sentado
  // int sensor_ired = analogRead (iredpin);//verificar lo que hay en el sensor
 
-  //prueba sin sensor 
-  int sensor_ired = 500;
-
+  
   if (sensor_ired >= too_close && sensor_ired <= too_far)//Verificamos que este cerca
   {
     someone = 1;//indicamos que hay alguien
 
-    Serial.println("Se ha detectado a alguien");//debug
-    Serial.println("Velocidad " + vel_time);  //debug
+    //Serial.println("Se ha detectado a alguien");//debug
     
     //Si la velocidad es buena iniciar la carga y esperar 20 segundos para alimentar el franki
     if (vel_time <= vel)//Si hay buena velocidad
@@ -121,22 +120,28 @@ void loop ()
         //Activar secuencia de carga de bateria
         digitalWrite (led1, HIGH);//Encender led
         digitalWrite (relay_carga, HIGH);//Activar carga de bateria
-        waiter = true;//Activar cuenta solo una vez
         veinte = millis ();//Inicia cuenta de encendido
+        waiter = true;//Activar cuenta solo una vez
       }
-      //Esperar
-      Serial.println ("Esperando 20:  " + millis() -veinte);
-      if (millis () - veinte >= twentysecs/* && franki == false*/)//Solo si se ha superado la cuenta
+           
+      if (millis () - veinte >= twentysecs && franki == false)//Solo si se ha superado la cuenta
       {
         digitalWrite(led2, HIGH);
         digitalWrite (relay_franki, HIGH);//Se activa el frankitropo
         Serial.println("ya se debio haber prendido el segundo rele");
         franki = true;
+      } else {
+        //Esperar
+        Serial.print("Esperando 20:  ");
+        Serial.println( millis() -veinte);
       }
     }
     else//Si la velocidad no es buena
     {
       Serial.println("Velocidad no es Buena, apaga relays");
+      
+      Serial.print("Velocidad ");  //debug
+      Serial.println(vel_time);
 
       //Detener secuencia de carga de bateria
       digitalWrite (led1, LOW);//Se apaga el led
@@ -182,11 +187,11 @@ void loop ()
     franki = false;//Bandera de frankitropo apagado
   }
   //envia los datos inalambricamente
-  msg[0] = someone;//Se define lo que se va a mandar
+ /* msg[0] = someone;//Se define lo que se va a mandar
   msg[1] = vel_time;//Se define lo que se va a mandar
   vw_send((uint8_t *)msg, 2);//Error de conversion en el ejemplo vw_send((uint8_t *)msg, strlen(msg));
   vw_wait_tx();//Esperar que se mande el mensaje
-  delay (200);
+  delay (200);*/
 }
 
 //Definir la velocidad
