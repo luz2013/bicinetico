@@ -68,8 +68,6 @@ volatile byte franki = false;//indica si el frankitropo esta encendido
 int someone = 0;//Indica si hay alguien, inicialmente no hay nadie, debe ser int para enviarse uint8_t
 unsigned char msg[2] = {0,0};
 
-int sensor_ired = 500;
-
 void setup ()
 {
   //Inicia comunicacion serial
@@ -100,7 +98,8 @@ void loop ()
  // int sensor_ired = analogRead (iredpin);//verificar lo que hay en el sensor
 
   
-  if (sensor_ired >= too_close && sensor_ired <= too_far)//Verificamos que este cerca
+//  if (sensor_ired >= too_close && sensor_ired <= too_far)//Verificamos que este cerca
+  if(vel_time < 800) //reemplazo del sensor de presencia
   {
     someone = 1;//indicamos que hay alguien
 
@@ -190,8 +189,8 @@ void loop ()
  /* msg[0] = someone;//Se define lo que se va a mandar
   msg[1] = vel_time;//Se define lo que se va a mandar
   vw_send((uint8_t *)msg, 2);//Error de conversion en el ejemplo vw_send((uint8_t *)msg, strlen(msg));
-  vw_wait_tx();//Esperar que se mande el mensaje
-  delay (200);*/
+  vw_wait_tx();//Esperar que se mande el mensaje*/
+  delay (200);
 }
 
 //Definir la velocidad
