@@ -51,11 +51,11 @@ const int tx = 4;//Pin de transmision
 //Valores. Constantes
 const int too_close = 100;//Si se sienta muy cerca
 const int too_far = 900;//Si se sienta muy lejos
-const unsigned long vel = 600;//tiempo entre interrupciones
+const unsigned long vel = 700;//tiempo entre interrupciones
 const unsigned long twentysecs = 1000;//20 segundos para prender franki
 
 //Timers-RAM
-volatile unsigned long vel_time = 0;
+volatile unsigned long vel_time = 1000;
 volatile unsigned long vel_time_c = 0;
 volatile unsigned long veinte = 0;
 volatile unsigned long veinte_off = 0;
@@ -66,7 +66,7 @@ volatile byte franki = false;//indica si el frankitropo esta encendido
 
 //Datos
 int someone = 0;//Indica si hay alguien, inicialmente no hay nadie, debe ser int para enviarse uint8_t
-unsigned char msg[2] = {0,0};
+char msg[2] = {0,0};
 
 void setup ()
 {
@@ -86,8 +86,8 @@ void setup ()
   digitalWrite (relay_carga, LOW);
   digitalWrite (relay_franki, LOW);
   //Se incializa la transmision IMPORTANTE: SE USAN INTERRUPCIONES, VERIFICAR TRASLAPO DE PINES
-  //vw_set_tx_pin (tx);
-  //vw_setup(2000);
+  vw_set_tx_pin (tx);
+  vw_setup(2000);
   //Se inicia el marcador de tiempo
   millis();
 }
@@ -95,10 +95,9 @@ void setup ()
 void loop ()
 {
   //Primera condicion, que haya alguien sentado
- // int sensor_ired = analogRead (iredpin);//verificar lo que hay en el sensor
+  int sensor_ired = analogRead (iredpin);//verificar lo que hay en el sensor
 
-  
-//  if (sensor_ired >= too_close && sensor_ired <= too_far)//Verificamos que este cerca
+ if (sensor_ired >= too_close && sensor_ired <= too_far)//Verificamos que este cerca
   if(vel_time < 800) //reemplazo del sensor de presencia
   {
     someone = 1;//indicamos que hay alguien
@@ -123,9 +122,9 @@ void loop ()
         waiter = true;//Activar cuenta solo una vez
       }
            
-      if (millis () - veinte >= twentysecs && franki == false)//Solo si se ha superado la cuenta
+      if (millis () - veinte >= twentysecs)//Solo si se ha superado la cuenta
       {
-        digitalWrite(led2, HIGH);
+        digitalWrite(led3, HIGH);
         digitalWrite (relay_franki, HIGH);//Se activa el frankitropo
         Serial.println("ya se debio haber prendido el segundo rele");
         franki = true;
@@ -152,6 +151,8 @@ void loop ()
         waiter = false;//Activar la cuenta solo una vez
         veinte_off = millis ();//Iniciar la cuenta de apagado
       }
+      vel_time = 1000;
+      
       //Espera colocada fuera del if de presencia para asegurar apagado
     }
   }
@@ -166,7 +167,7 @@ void loop ()
       someone = 0;//Indicar que no hay nadie sentado
       waiter = false;//Desactivar contador para frankitropo
       digitalWrite (led1, LOW);//Apagar led 1 por si estaba encendido
-      digitalWrite (led2, LOW);
+      digitalWrite (led3, LOW);
       digitalWrite (relay_carga, LOW);//Detener la carga de la bateria
 /*    
       //Esta exepcion es una propuesta para corregir mal funcionamiento
@@ -186,11 +187,11 @@ void loop ()
     franki = false;//Bandera de frankitropo apagado
   }
   //envia los datos inalambricamente
- /* msg[0] = someone;//Se define lo que se va a mandar
+  msg[0] = someone;//Se define lo que se va a mandar
   msg[1] = vel_time;//Se define lo que se va a mandar
-  vw_send((uint8_t *)msg, 2);//Error de conversion en el ejemplo vw_send((uint8_t *)msg, strlen(msg));
-  vw_wait_tx();//Esperar que se mande el mensaje*/
-  delay (200);
+  //vw_send((uint8_t *)msg, strlen(msg));//Error de conversion en el ejemplo vw_send((uint8_t *)msg, strlen(msg));
+  //vw_wait_tx();//Esperar que se mande el mensaje*/
+  //delay (200);
 }
 
 //Definir la velocidad
